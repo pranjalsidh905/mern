@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Signup(props) {
+function signup(props) {
   console.log(">>>>>>>>>>>>>props", props);
 
   const [name, setName] = useState("props.name");

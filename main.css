@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.coaniter {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  background-color: lightgray;
+}
+.logo {
+  width: 30%;
+  margin-top: 8px;
+}
+.logo img {
+  margin-left: 17%;
+}
+.navbar {
+  width: 70%;
+  display: flex;
+}
+.navbar ul {
+  display: flex;
+  width: 100%;
+  margin-left: 8%;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  margin-left: 32px;
+}
