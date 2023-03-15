@@ -9,17 +9,17 @@ function Signup(props) {
   const onSubmitForm = (e) => {
     e.preventDefault();
     console.log(email, password, confirmPassword);
-    const data = {
+    const info= {
       email: email,
       password: password,
       confirmPassword: confirmPassword,
     };
 
-    const stringifyData = JSON.stringify(data);
+    const gfhjfjgkjgk = JSON.stringify(info);
 
-    localStorage.setItem("data", stringifyData);
-    console.log(">>>>>>data ", data);
-    console.log(">>>>>>data ", JSON.stringify(data));
+    localStorage.setItem("info", gfhjfjgkjgk);
+    console.log(">>>>>>data ", info);
+    console.log(">>>>>>data ", JSON.stringify(info));
   };
   return (
     <div className="App">
@@ -32,14 +32,16 @@ function Signup(props) {
           </div>
           <div className="loginform">
             <form onSubmit={onSubmitForm}>
-              <input className="input"
+              <input
+                className="input"
                 type="email"
                 placeholder="Your email"
                 onChange={(e) => setEmail(e.target.value)}
               />
               <br />
               <br /> <br />
-              <input className="input"
+              <input
+                className="input"
                 type="password"
                 placeholder="Password"
                 onChange={(e) => setPassword(e.target.value)}
@@ -47,7 +49,8 @@ function Signup(props) {
               <br />
               <br />
               <br />
-              <input className="input"
+              <input
+                className="input"
                 type="password"
                 placeholder="ConfarmPassword"
                 onChange={(e) => setConfirmPassword(e.target.value)}

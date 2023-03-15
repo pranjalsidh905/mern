@@ -17,7 +17,7 @@ const Header = () => {
             <div class="collapse navbar-collapse" id="mynavbar">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a href="" class="nav-link">
+                  <a href="/" class="nav-link">
                     Home
                   </a>
                 </li>
@@ -57,13 +57,23 @@ const Header = () => {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="Login" class="nav-link">
+                  <a href="/login" class="nav-link">
                     Login
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="StopWatch" class="nav-link">
+                  <a href="/stop-watch" class="nav-link">
                     StopWatch
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="/user" class="nav-link">
+                    User
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="/dashbord" class="nav-link">
+                    DashBord
                   </a>
                 </li>
               </ul>
