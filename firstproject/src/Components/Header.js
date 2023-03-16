@@ -3,7 +3,7 @@ const Header = () => {
     <div class="container-fluid">
       <div class="row py-3">
         <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <a href="" class="navbar-brand">
               Sharma
             </a>

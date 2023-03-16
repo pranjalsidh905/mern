@@ -1,0 +1,130 @@
+.section1 {
+    width: 100%;
+    height: 1000px;
+    background-image: url(imge/background.png);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.colo {
+    background-color: currentcolor;
+}
+
+.photo {
+    width: 100px;
+}
+
+.navbar-icon {
+    width: 100px;
+}
+
+.number {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.full {
+    margin-top: 25%;
+}
+
+.elementor {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.elementor-heading {
+    color: #584545;
+    font-family: "Playball", Sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+
+}
+
+.elementor-widget {
+    text-align: center;
+}
+
+.elementor-heading-title {
+    color: #584545;
+    font-family: "PT Serif";
+    font-size: 68px;
+    font-weight: 600;
+}
+
+.elementor-widget-container {
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+}
+
+.Book {
+
+    font-family: "PT Serif", Sans-serif;
+    font-weight: 600;
+    height: 53px;
+    background-color: #EBC359;
+    width: 14%;
+
+}
+
+.section2 {
+    clear: both;
+    background-color: black;
+}
+
+.long {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.elementor-size-default {
+    color: #FFFFFF;
+    font-family: "Playball", Sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.elementor-heading-titl {
+    color: #FFFFFF;
+    font-family: "PT Serif", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.elementor-divider {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.elementor-divider-separator {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.elementor-icon {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+
+}
+
+.elementor-icon i {
+
+
+    height: 1em;
+    position: relative;
+    display: block;
+    bottom: 32px;
+    font-size: 3rem;
+}
+
+.hor{
+    width: 23%;
+    color: #f1f1f1;
+    margin-left: 25%;
+}
