@@ -5,8 +5,10 @@ import Home from "./Components/Home";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 import StopWatch from "./Components/StopWatch";
-import User from "./Components/User";
+import Admin from "./Components/Admin";
 import DashBord from "./Components/DashBord";
+
+
 
 const PublicRoutes = () => {
   return (
@@ -16,7 +18,7 @@ const PublicRoutes = () => {
       <Route path="/signup" element={<Signup />} />
       <Route path="/login" element={<Login />} />
       <Route path="/stop-watch" element={<StopWatch />} />
-      <Route path="/user" element={<User />} />
+      <Route path="/Admin" element={<Admin />} />
       <Route path="/dashbord" element={<DashBord />}/>
     </Routes>
   );

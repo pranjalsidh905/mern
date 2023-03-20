@@ -67,8 +67,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/user" class="nav-link">
-                    User
+                  <a href="/Admin" class="nav-link">
+                 Admin
                   </a>
                 </li>
                 <li class="nav-item">
