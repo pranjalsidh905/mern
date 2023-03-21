@@ -1,4 +1,4 @@
-.section1 {
+/* .section1 {
     width: 100%;
     height: 1000px;
     background-image: url(imge/background.png);
@@ -6,7 +6,108 @@
     background-size: cover;
 
 
-}
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #222;
+  }
+  
+  .slider{
+    overflow: hidden;
+    width: 100%;
+    height:80vh;
+    position: relative;
+  }
+  
+  
+  .slide{
+    height: 100vh;
+    display: none;
+    position: relative;
+    transition: all 0.5s linear;
+  }
+  .slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @keyframes animate{
+    0%{
+      transform:translateY(-20px)
+    }
+    50%{
+      transform:translateY(0)
+    }
+    100%{
+          transform:translateY(-20px)
+    }
+  }
+  .slide-content{
+    height: 80px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000;
+    position: absolute;
+    top:25%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    animation: animate 2s cubic-bezier(.17,.67,.17,.67) 0.5s 1 alternate;
+  }
+  
+  .slide::before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0 0 0 / .3), rgba( 0 0 0 / .7));
+  }
+  
+  .slide.active{
+    display: block;
+  }
+  
+  .slider-control{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn{
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: rgba(255,255,255,1);
+    transition: all 0.3s linear;
+  }
+  
+  .btn:hover{
+    background-color: rgba(0,0,0,1);
+    color: #FFF;
+    transform: translateX(5px);
+  }
 
 .colo {
     background-color: currentcolor;
@@ -208,6 +309,7 @@
     overflow: hidden;
     border-right: 3px solid #454035;
     border-bottom: 3px solid #454035;
+  
 }
 
 .gallery .gallery-item img {
@@ -424,6 +526,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 
 footer {
     height: 170px;
+    background-color: rgb(66, 64, 64);
 }
 
 .footer-div {
@@ -433,6 +536,7 @@ footer {
 .footer-heading h5 {
     font-size: 4rem;
     padding-top: 45px;
+    color: white;
 
 }
 
@@ -443,20 +547,6 @@ footer {
 .footer-icon a {
     color: white;
     text-decoration: none;
-}
-
-
-
-
-
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0px;
-    font-family: 'segoe ui';
 }
 
 .nav {
@@ -470,11 +560,15 @@ body {
     display: inline;
 }
 
-.nav>.nav-header>.nav-title {
+.nav>.nav-header>.nav-title{
     display: inline-block;
     font-size: 22px;
     color: #fff;
     padding: 10px 10px 10px 10px;
+}
+.navbar-brand
+{
+    padding: 3px 15px;
 }
 
 .nav>.nav-btn {
