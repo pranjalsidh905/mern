@@ -1,13 +1,13 @@
 import "./App.css";
 import Header from "./Component/Header";
-
+import Sign from "./Component/Sign";
 import PublicRoutes from "./PublicRoutes";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <BrowserRouter>
         <PublicRoutes />
       </BrowserRouter>
