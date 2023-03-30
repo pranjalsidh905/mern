@@ -1,4 +1,3 @@
-// import ankit from "../Component/Images/net.jpeg";
 const Home = () => {
   return (
     <div>
@@ -6,7 +5,7 @@ const Home = () => {
         <header class="header">
           <nav class="logo">
             <img src="https://i.ibb.co/r5krrdz/logo.png" alt="Netflix" />
-            <a href="Sign" class="btn">
+            <a href="" class="btn">
               {" "}
               Sign In
             </a>
