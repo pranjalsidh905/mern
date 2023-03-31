@@ -8,6 +8,7 @@ const PublicRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/header" element={<Header />} />
       <Route path="/sign" element={<Sign />} />
+      
     </Routes>
   );
 };
