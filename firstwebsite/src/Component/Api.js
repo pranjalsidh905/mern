@@ -13,6 +13,12 @@ const Api = () => {
     };
     pranjal();
   }, []);
+  useEffect(()=>{
+     var a = async()=>{
+      var b = await axios.get("")
+      
+     }
+  })
 
   return (
     <div className="container">

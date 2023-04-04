@@ -1,0 +1,427 @@
+* {
+    letter-spacing: 0 !important;
+}
+
+.Header {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
+    height: 90px;
+
+}
+
+.img-div {
+    width: 12%;
+    fill: #e50914;
+    display: inline-block;
+    line-height: 90px;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 3%;
+
+
+}
+
+
+.img {
+    width: 100%;
+}
+
+
+.nfHeader {
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+
+.signupBasicHeader {
+    height: 90px;
+
+}
+
+.noBorderHeader {
+    background-color: transparent;
+    border-bottom: 0;
+    position: relative;
+}
+
+
+
+
+
+.svg-nfLogo.signupBasicHeader {
+    margin-left: 3%;
+}
+
+
+.svg-nfLogo {
+
+    line-height: 90px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+a {
+    background-color: transparent;
+}
+
+.authLinks.signupBasicHeader {
+    margin: 0 3%;
+}
+
+.authLinks {
+    color: #333;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 90px;
+
+}
+
+
+
+#appMountPoint .simpleContainer {
+    padding-bottom: 95px;
+}
+
+.simpleContainer {
+    flex-grow: 1;
+}
+
+.nfHeader,
+.simpleContainer {
+    background-color: #fff;
+}
+
+.simpleContainer {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.centerContainer {
+    --layout-container-side-padding: 32px;
+    padding: 20px 32px 60px;
+    padding: 20px var(--layout-container-side-padding) 60px;
+}
+
+.centerContainer.firstLoad,
+.centerContainer.sameMode {
+    display: block;
+}
+
+.centerContainer {
+    display: none;
+    overflow: hidden;
+}
+
+.centerContainer {
+    box-sizing: border-box;
+    margin: 0 auto 15px;
+    max-width: 978px;
+    padding: 20px 3% 60px;
+}
+
+
+
+.planContainer,
+.regContainer,
+.verifyCardContainer {
+    max-width: 340px;
+}
+
+.planContainer,
+.regContainer,
+.verifyCardContainer,
+.verifyCardPageContainer {
+    margin: 0 auto;
+    max-width: 440px;
+    text-align: center;
+}
+
+.stepLogoContainer {
+    display: inline-block;
+}
+
+
+.stepLogoContainer .stepLogo {
+    margin: 100px 0 20px;
+}
+
+.regStepLogo {
+    width: 260px;
+}
+
+.planContainer .stepLogo,
+.regContainer .stepLogo,
+.verifyCardContainer .stepLogo,
+.verifyCardPageContainer .stepLogo {
+    display: block;
+    margin: 10% 0;
+}
+
+.regContainer {
+    max-width: 340px;
+}
+
+.regStepLogo {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Devices.png) no-repeat 50% 50%;
+    background-size: 260px;
+    height: 90px;
+}
+
+
+.planContainer,
+.regContainer,
+.verifyCardContainer,
+.verifyCardPageContainer {
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.centerContainer {
+    --layout-container-side-padding: 32px;
+    padding: 20px 32px 60px;
+    padding: 20px var(--layout-container-side-padding) 60px;
+}
+
+.simpleContainer {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    width: 100%;
+}
+
+.netflix-sans-font-loaded {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+
+.stepIndicator {
+    display: block;
+    font-size: 13px;
+    line-height: 19px;
+
+    color: black;
+    text-align: inherit;
+}
+
+.hasLargeTypography h1 {}
+
+.stepTitle {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+}
+
+
+.hasLargeTypography .regContainer .contextBody,
+.hasLargeTypography .regFormContainer .contextRow {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.contextBody {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.paymentContainer .contextBody,
+.planContainer .contextBody,
+.regContainer .contextBody,
+.verifyCardContainer .contextBody {
+    font-size: 17px;
+    margin: 0;
+}
+
+.planContainer .contextRow,
+.regContainer .contextRow,
+.verifyCardContainer .contextRow,
+.verifyCardPageContainer .contextRow {
+    display: inline-block;
+    max-width: 300px;
+    color: black;
+}
+
+.contextStep .submitBtnContainer {
+    max-width: 340px;
+}
+
+.simpleContainer .submitBtnContainer {
+    margin-top: 24px;
+}
+
+.submitBtnContainer {
+    margin: 0 auto;
+    max-width: 440px;
+    text-align: center;
+}
+
+.hasLargeTypography button.nf-btn-primary {
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 400;
+    min-height: 64px;
+}
+
+.nf-btn-primary,
+.nf-btn-secondary {
+    border-radius: 2px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+    min-height: 48px;
+}
+
+.nf-btn.nf-btn-oversize {
+    font-size: 19px;
+    line-height: 19px;
+    min-height: 60px;
+    min-width: 110px;
+    padding: 20.5px 2em;
+    width: 100%;
+    border: none;
+}
+
+.nf-btn-solid.nf-btn-primary,
+.nf-btn-twotone.nf-btn-primary {
+    background-color: #e50914;
+    color: #fff;
+}
+
+
+.site-footer-wrapper {
+    background-color: #f3f3f3;
+    margin-top: 0;
+    opacity: 1;
+}
+
+.site-footer-wrapper {
+    color: #737373;
+    font-size: 1em;
+   
+    min-width: 190px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.footer-divider {
+    border-top: 1px solid #e6e6e6;
+    height: 0;
+    width: 100%;
+}
+
+.site-footer {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 90%;
+}
+
+.footer-top {
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.footer-top-a {
+    color: #737373;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul.structural {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links {
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 1000px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul.structural>li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-link-item {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    width: 25%;
+}
+
+ul>li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    margin-left: 1.1em;
+}
+
+.footer-link {
+    color: #737373;
+}
+
+.lang-selection-container {
+    display: inline-block;
+}
+.nfSelectWrapper.selectArrow {
+    display: inline-block;
+    width: 100%;
+}
+
+.nfSelectWrapper {
+    display: inline-block;
+    max-width: 500px;
+    position: relative;
+}
+.lang-selection-container .nfLabel {
+    clip: rect(0 0 0 0);
+    border: 0;
+    display: block;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.nfLabel {
+    color: #333;
+    font-size: 16px;
+}
+.nfSelectWrapper.selectArrow .nfSelectPlacement {
+    position: relative;
+}
+.nfSelectWrapper.selectArrow.inFooter .nfSelect {
+    color: inherit;
+}
+.nfSelectWrapper.selectArrow.prefix .nfSelect {
+    padding-left: 42px;
+}
+.nfSelect {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: 1px solid #a6a6a6;
+    border-radius: 2px;
+    font-size: 16px;
+    height: 48px;
+    padding: 10px 30px 12px 10px;
+    width: 100%;
+}
