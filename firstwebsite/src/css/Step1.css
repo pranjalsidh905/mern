@@ -1,4 +1,4 @@
-* {
+/* * {
     letter-spacing: 0 !important;
 }
 
@@ -206,7 +206,6 @@ a {
     text-align: inherit;
 }
 
-.hasLargeTypography h1 {}
 
 .stepTitle {
     display: inline-block;
@@ -302,7 +301,7 @@ a {
 .site-footer-wrapper {
     color: #737373;
     font-size: 1em;
-   
+
     min-width: 190px;
     padding-bottom: 20px;
     position: relative;
@@ -378,6 +377,7 @@ ul>li {
 .lang-selection-container {
     display: inline-block;
 }
+
 .nfSelectWrapper.selectArrow {
     display: inline-block;
     width: 100%;
@@ -388,6 +388,7 @@ ul>li {
     max-width: 500px;
     position: relative;
 }
+
 .lang-selection-container .nfLabel {
     clip: rect(0 0 0 0);
     border: 0;
@@ -404,15 +405,19 @@ ul>li {
     color: #333;
     font-size: 16px;
 }
+
 .nfSelectWrapper.selectArrow .nfSelectPlacement {
     position: relative;
 }
+
 .nfSelectWrapper.selectArrow.inFooter .nfSelect {
     color: inherit;
 }
+
 .nfSelectWrapper.selectArrow.prefix .nfSelect {
     padding-left: 42px;
 }
+
 .nfSelect {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -424,4 +429,4 @@ ul>li {
     height: 48px;
     padding: 10px 30px 12px 10px;
     width: 100%;
-}
+} */

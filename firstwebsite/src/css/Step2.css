@@ -1,0 +1,528 @@
+ body {
+     font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+ }
+
+ * {
+     letter-spacing: 0 !important;
+
+
+ }
+
+ .Header1 {
+     width: 100%;
+     border-bottom: 1px solid #e6e6e6;
+     background-color: #fff;
+     height: 90px;
+
+ }
+
+ .img-div1 {
+     width: 12%;
+
+     display: inline-block;
+     line-height: 90px;
+     text-decoration: none;
+     vertical-align: middle;
+     margin-left: 3%;
+
+
+ }
+
+ .img1 {
+
+     width: 167px;
+ }
+
+
+
+ .signupBasicHeader1 {
+     height: 90px;
+
+ }
+
+
+ .nfHeader1 {
+     background-color: #f3f3f3;
+     border-bottom: 1px solid #ccc;
+ }
+
+ .noBorderHeader1 {
+     background-color: transparent;
+     border-bottom: 0;
+     position: relative;
+ }
+
+ div.basicLayout1 .nfHeader1 {
+     border-bottom: 1px solid #e6e6e6;
+ }
+
+ div.basicLayout1 .nfHeader1,
+ div.basicLayout1 .simpleContainer1 {
+     background-color: #fff;
+ }
+
+ .nfHeader1,
+ .nfHeader1.signupBasicHeader1 {
+     height: 90px;
+ }
+
+ .authLinks1.signupBasicHeader1 {
+     margin: 0 3%;
+ }
+
+ .authLinks1 {
+     color: #333;
+     float: right;
+     font-size: 19px;
+     font-weight: 500;
+     line-height: 90px;
+     text-decoration: none;
+ }
+
+
+ #appMountPoint .simpleContainer1 {
+     padding-bottom: 95px;
+ }
+
+ .basicLayout1.simplicity1 .simpleContainer1 {
+     flex-grow: 1;
+ }
+
+ div.basicLayout1 .nfHeader1,
+ div.basicLayout1 .simpleContainer1 {
+     background-color: #fff;
+ }
+
+ .simpleContainer1 {
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     overflow: hidden;
+     width: 100%;
+ }
+
+
+
+ div.basicLayout1 .centerContainer1 {
+     --layout-container-side-padding: 32px;
+     padding: 20px 32px 60px;
+     padding: 20px var(--layout-container-side-padding) 60px;
+ }
+
+ .centerContainer1 {
+     display: none;
+     overflow: hidden;
+     display: block;
+     transform: none;
+     opacity: 1;
+     transition-duration: 250ms;
+ }
+
+ .centerContainer1 {
+     box-sizing: border-box;
+     margin: 0 auto 15px;
+     max-width: 978px;
+ }
+
+ .regFormContainer1 {
+     margin: 0 auto;
+     max-width: 440px;
+     text-align: left;
+ }
+
+ .regFormContainer1 .stepHeader1 {
+     margin-top: 20px;
+ }
+
+ .stepHeader1 {
+     display: inline-block;
+ }
+
+ div.basicLayout1 .stepIndicator1 {
+     font-size: 13px;
+     text-align: inherit;
+ }
+
+ .stepIndicator1 {
+     display: block;
+
+     line-height: 19px;
+
+     color: black;
+ }
+
+ div.basicLayout1.hasLargeTypography h1 {
+     font-size: 32px;
+ }
+
+ .stepTitle1 {
+     display: inline-block;
+     font-size: 23px;
+     font-weight: 500;
+     color: black;
+ }
+
+
+ div.basicLayout1.hasLargeTypography .regFormContainer1 .contextRow1 {
+     font-size: 18px;
+     margin-bottom: 0;
+     margin-top: 0;
+ }
+
+ .regFormContainer1 .contextRow1 {
+     font-size: 19px;
+     color: black;
+ }
+
+ div.basicLayout1.hasLargeTypography .regFormContainer1 .contextRow1+.contextRow1 {
+     font-size: 18px;
+     margin-top: 10px;
+ }
+
+ div.basicLayout1.hasLargeTypography .regFormContainer1 .contextRow1 {
+     font-size: 18px;
+     margin-bottom: 0;
+     margin-top: 0;
+     color: black;
+ }
+
+ .regFormContainer1 .simpleForm1 {
+     margin: 16px 0 20px;
+ }
+
+ ul.structural1 {
+     margin: 0;
+     padding: 0;
+ }
+
+ .ui-grid1 {
+     box-sizing: border-box;
+ }
+
+ ul.structural1>li {
+     list-style: none;
+     margin-left: 0;
+ }
+
+ .nfFormSpace11 {
+     margin-bottom: 10px;
+ }
+
+ .nfInput1,
+ .nfInput1 .nfInput1Placement {
+     position: relative;
+ }
+
+ .nfInput1 {
+     max-width: 500px;
+ }
+
+ .nfInput1 .nfInput1Placement {
+     position: relative;
+ }
+
+ .nfInput1.nfInputOversize1 .nfTextField1 {
+     height: 60px;
+ }
+
+
+
+ .nfInput1 .nfTextField1 {
+     height: 48px;
+     padding: 10px 10px 0;
+     width: 100%;
+ }
+
+ .nfTextField1:valid {
+     box-shadow: none;
+ }
+
+ .nfTextField1 {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     border: 1px solid #8c8c8c;
+     border-radius: 2px;
+     box-sizing: border-box;
+     color: #000;
+     display: block;
+     font-size: 16px;
+     height: 44px;
+     padding: 10px 11px;
+     width: 100%;
+ }
+
+ label {
+     display: block;
+ }
+
+ input {
+     line-height: normal;
+ }
+
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
+     color: inherit;
+     font: inherit;
+     margin: 0;
+ }
+
+
+
+ .nfInput1.nfInputOversize1 .hasText1+.placeLabel1,
+ .nfInput1.nfInputOversize1 .nfTextField1:focus+.placeLabel1 {
+     font-size: 13px;
+     font-weight: 500;
+     top: 6px;
+ }
+
+ .nfInput1 .hasText1+.placeLabel1,
+ .nfInput1 .nfTextField1:focus+.placeLabel1 {
+     font-size: 11px;
+     top: 4px;
+     transform: translateY(0);
+ }
+
+ @media only screen and (min-width: 740px) {
+     .nfInput1 .placeLabel1 {
+         font-size: 16px;
+     }
+ }
+
+ .nfInput1 .placeLabel1 {
+     color: #8c8c8c;
+     font-size: 14px;
+     left: 10px;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     transition: font .1s ease, top .1s ease, transform .1s ease;
+ }
+
+ ul.structural1>li {
+     list-style: none;
+     margin-left: 0;
+ }
+
+ .nfFormSpace11 {
+     margin-bottom: 10px;
+
+ }
+
+ .nfInput1,
+ .nfInput1 .nfInput1Placement {
+     position: relative;
+ }
+
+ .nfInput1 {
+     max-width: 500px;
+ }
+
+ .nfInput1 .nfInput1Placement {
+     position: relative;
+ }
+
+
+ .simpleContainer1 .submitBtnContainer1 {
+     margin-top: 24px;
+ }
+
+ .submitBtnContainer1 {
+     margin: 0 auto;
+     max-width: 440px;
+     text-align: center;
+ }
+
+ div.basicLayout1.hasLargeTypography button.nf-btn-primary {
+     border-radius: 4px;
+     font-size: 24px;
+     font-weight: 400;
+
+     line-height: 1;
+     min-height: 64px;
+ }
+
+ .nf-btn.nf-btn-oversize {
+     font-size: 19px;
+     line-height: 19px;
+     min-height: 60px;
+     min-width: 110px;
+     padding: 20.5px 2em;
+     width: 100%;
+ }
+
+ .nf-btn-solid.nf-btn-primary,
+ .nf-btn-twotone.nf-btn-primary {
+     background-color: #e50914;
+     color: #fff;
+ }
+
+
+
+ .nf-btn.nf-btn-oversize {
+     font-size: 19px;
+     line-height: 19px;
+     min-height: 60px;
+     min-width: 110px;
+     padding: 20.5px 2em;
+     width: 100%;
+ }
+
+ .nf-btn {
+     border: none;
+     border-radius: 2px;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+     box-sizing: border-box;
+     color: #000;
+     cursor: pointer;
+     display: inline-block;
+     font-weight: 500;
+     letter-spacing: .025rem;
+     line-height: 1rem;
+     text-align: center;
+     text-decoration: none;
+
+
+     user-select: none;
+     vertical-align: middle;
+ }
+
+ .site-footer-wrapper {
+     color: #737373;
+     font-size: 1em;
+     min-width: 190px;
+     padding-bottom: 20px;
+     position: relative;
+     width: 100%;
+     transition-duration: 250ms;
+     opacity: 1;
+     background-color: #f3f3f3;
+     margin-top: 0;
+ }
+
+ .footer-divider {
+     border-top: 1px solid #e6e6e6;
+     height: 0;
+     width: 100%;
+ }
+
+ .site-footer {
+     margin: 0 auto;
+     padding-top: 30px;
+     width: 90%;
+ }
+
+ .footer-top {
+     margin: 0 0 30px;
+     padding: 0;
+ }
+
+ .footer-top-a1 {
+     color: #737373;
+     text-decoration: none;
+ }
+
+ ul.structural1 {
+     margin: 0;
+     padding: 0;
+ }
+
+ .footer-links {
+     box-sizing: border-box;
+     font-size: 13px;
+     max-width: 1000px;
+ }
+
+ ul.structural1>li {
+     list-style: none;
+     margin-left: 0;
+ }
+
+ .footer-link-item {
+     box-sizing: border-box;
+     display: inline-block;
+     margin-bottom: 16px;
+     min-width: 100px;
+     padding: 0 12px 0 0;
+     vertical-align: top;
+     width: 25%;
+ }
+
+ .footer-link {
+     color: #737373;
+     text-decoration: none;
+ }
+
+ .lang-selection-container {
+     display: inline-block;
+ }
+
+ .nfSelectWrapper.selectArrow {
+     display: inline-block;
+     width: 100%;
+ }
+
+ .nfSelectWrapper {
+     display: inline-block;
+     max-width: 500px;
+     position: relative;
+ }
+
+
+
+ .lang-selection-container .nfLabel {
+     clip: rect(0 0 0 0);
+     border: 0;
+     display: block;
+     height: 1px;
+     margin: -1px;
+     overflow: hidden;
+     position: absolute;
+     white-space: nowrap;
+     width: 1px;
+ }
+
+ .nfLabel {
+     color: #333;
+     font-size: 16px;
+ }
+
+ .nfSelectWrapper.selectArrow .nfSelectPlacement {
+     position: relative;
+ }
+
+ .nfSelectWrapper.selectArrow.inFooter .nfSelect {
+     color: inherit;
+ }
+
+ .nfSelectWrapper.selectArrow.prefix .nfSelect {
+     padding-left: 42px;
+ }
+
+ .nfSelect {
+     appearance: none;
+     background: #fff;
+     border: 1px solid #a6a6a6;
+     border-radius: 2px;
+     font-size: 16px;
+     height: 48px;
+     padding: 10px 30px 12px 10px;
+     width: 100%;
+ }
+
+ button,
+ select {
+     text-transform: none;
+ }
+
+
+ .a11yAnnouncer {
+     position: absolute;
+ }
+
+ .a11yAnnouncer {
+     height: 1px;
+     overflow: hidden;
+     width: 1px;
+ }
