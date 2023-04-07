@@ -4,7 +4,7 @@ import "../css/Step2.css";
 
 const Step2 = () => {
   return (
-    <div id="appMountPoint">
+    <div id="appMountPoint1">
       <div>
         <div class="Header1">
           <div
@@ -90,7 +90,7 @@ const Step2 = () => {
                           >
                             <div
                               data-uia="field-password+container"
-                              class="nfInput1 nfInputOversize"
+                              class="nfInput1 nfInputOversize1"
                             >
                               <div class="nfInputPlacement1">
                                 <label class="input_id1" placeholder="password">

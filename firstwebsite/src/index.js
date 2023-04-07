@@ -6,10 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 import Api from "./Component/Api";
 import Step1 from "./Component/Step1";
 import Step2 from "./Component/Step2";
+import Step3 from "./Component/Step3";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Step2 />
+    <Step3 />
   </React.StrictMode>
 );
 
