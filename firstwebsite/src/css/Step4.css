@@ -1,0 +1,136 @@
+* {
+    letter-spacing: 0 !important;
+}
+
+.Header1 {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
+    height: 90px;
+
+}
+
+.img-div1 {
+    width: 12%;
+
+    display: inline-block;
+    line-height: 90px;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 3%;
+
+
+}
+
+.img1 {
+
+    width: 167px;
+}
+
+.basicLayout3.simplicity3 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 0;
+}
+
+div.basicLayout3 .nfHeader3 {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+div.basicLayout3 .nfHeader3,
+div.basicLayout3 .simpleContainer3 {
+    background-color: #fff;
+}
+
+.nfHeader3,
+.nfHeader3.signupBasicHeader3 {
+    height: 90px;
+}
+
+.noBorderHeader3 {
+    background-color: transparent;
+    border-bottom: 0;
+    position: relative;
+}
+
+.nfHeader3 {
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #ccc;
+}
+
+.authLinks3.signupBasicHeader3 {
+    margin: 0 3%;
+}
+
+.authLinks3 {
+    color: #333;
+    float: right;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 90px;
+    text-decoration: none;
+}
+
+#appMountPoint .simpleContainer3 {
+    padding-bottom: 95px;
+}
+
+.basicLayout3.simplicity3 .simpleContainer3 {
+    flex-grow: 1;
+}
+
+div.basicLayout3 .nfHeader3,
+div.basicLayout3 .simpleContainer3 {
+    background-color: #fff;
+}
+
+.simpleContainer3 {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    width: 100%;
+}
+
+div.basicLayout3 .narrowCenterContainer3 {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: block;
+    transform: none;
+    opacity: 1;
+    transition-duration: 250ms;
+}
+
+div.basicLayout3 .centerContainer3 {
+    --layout-container-side-padding: 32px;
+    padding: 20px 32px 60px;
+    padding: 20px var(--layout-container-side-padding) 60px;
+}
+
+.centerContainer3 {
+    display: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 auto 15px;
+    max-width: 978px;
+    padding: 20px 3% 60px;
+}
+
+.planFormContainer3 {
+    margin: 0 auto;
+    max-width: 1024px;
+    overflow: hidden;
+}
+
+div.basicLayout3 .planFormContainer3 .changeAnytime3,
+div.basicLayout3 .planFormContainer3 .stepHeader-container3 {
+    padding: 0 16px;
+}
+.stepHeader3 {
+    display: inline-block;
+}
+
+div.basicLayout3 .stepIndicator3 {
+    font-size: 13px;
+    text-align: inherit;
+    color: black;
+}

@@ -1,4 +1,4 @@
-* {
+/* * {
     letter-spacing: 0 !important;
 }
 
@@ -167,14 +167,14 @@ div.basicLayout2.hasLargeTypography2 h1 {
     display: inline-block;
     font-size: 23px;
     font-weight: 500;
-}
+} */
 
 /* div.basicLayout2.hasLargeTypography2 .checkmark-group--text2, div.basicLayout2.hasLargeTypography2 .contextRow2, div.basicLayout2.hasLargeTypography2 .regContainer2.contextBody2, div.basicLayout2.hasLargeTypography2 .regFormContainer2 .contextRow2 {
     font-size: 18px;
     margin-bottom: 0;
     margin-top: 0;
 } */
-div.basicLayout2 .paymentContainer2 .contextBody2,
+/* div.basicLayout2 .paymentContainer2 .contextBody2,
 div.basicLayout2 .planContainer2 .contextBody2,
 div.basicLayout2 .regContainer2 .contextBody2,
 div.basicLayout2 .verifyCardContainer2 .contextBody2 {
@@ -207,9 +207,9 @@ div.basicLayout2.hasLargeTypography2 .contextRow2 {
 
 .checkmark-group2 {
     order: -1;
-}
+} */
 
-.checkmark-group--row2 {
+/* .checkmark-group--row2 {
     align-items: flex-start;
     display: flex;
     flex-direction: row;
@@ -225,9 +225,9 @@ ul>li {
 
 svg:not(:root) {
     overflow: hidden;
-}
+} */
 
-.checkmark-group--icon2 {
+/* .checkmark-group--icon2 {
     align-self: flex-start;
     color: #e50914;
     flex: none;
@@ -268,8 +268,8 @@ div.basicLayout2 .contextStep2 .submitBtnContainer2 {
     margin: 0 auto;
     max-width: 440px;
     text-align: center;
-}
-
+} */
+/* 
 div.basicLayout2.hasLargeTypography2 button.modal-action-button,
 div.basicLayout2.hasLargeTypography2 button.nf-btn-primary {
     border-radius: 4px;
@@ -294,15 +294,15 @@ div.basicLayout2 .nf-btn-secondary {
     font-weight: 400;
     line-height: 1;
     min-height: 48px;
-}
+} */
 
-.nf-btn-solid.nf-btn-primary,
+/* .nf-btn-solid.nf-btn-primary,
 .nf-btn-twotone.nf-btn-primary {
     background-color: #e50914;
     color: #fff;
 }
 
-element.style {}
+
 
 div.basicLayout.hasLargeTypography button.modal-action-button,
 div.basicLayout.hasLargeTypography button.nf-btn-primary {
@@ -319,9 +319,9 @@ div.basicLayout .nf-btn-secondary {
     font-weight: 400;
     line-height: 1;
     min-height: 48px;
-}
+} */
 
-.nf-btn.nf-btn-oversize {
+/* .nf-btn.nf-btn-oversize {
     font-size: 19px;
     line-height: 19px;
     min-height: 60px;
@@ -334,9 +334,9 @@ div.basicLayout .nf-btn-secondary {
 .nf-btn-twotone.nf-btn-primary {
     background-color: #e50914;
     color: #fff;
-}
+} */
 
-@media only screen and (min-width: 500px) {
+/* @media only screen and (min-width: 500px) {
     .nf-btn {
         width: auto;
     }
@@ -375,13 +375,13 @@ div.basicLayout .nf-btn-secondary {
     background-color: #f3f3f3;
     margin-top: 0;
     opacity: 1;
-}
+} */
 
 
-.site-footer-wrapper2 {
+/* .site-footer-wrapper2 {
     color: #737373;
     font-size: 1em;
-    /* margin-top: 80px; */
+
     min-width: 190px;
     padding-bottom: 20px;
     position: relative;
@@ -424,8 +424,8 @@ div.basicLayout .nf-btn-secondary {
     padding: 0 12px 0 0;
     vertical-align: top;
     width: 25%;
-}
-
+} */
+/* 
 ul.structural {
     margin: 0;
     padding: 0;
@@ -486,6 +486,7 @@ ul.structural>li {
 .nfSelectWrapper2.selectArrow2.prefix2 .nfSelect2 {
     padding-left: 42px;
 }
+
 .nfSelect2 {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -497,8 +498,10 @@ ul.structural>li {
     height: 48px;
     padding: 10px 30px 12px 10px;
     width: 100%;
-}
-#tmcontainer1, .a11yAnnouncer2 {
+} */
+/* 
+#tmcontainer1,
+.a11yAnnouncer2 {
     position: absolute;
 }
 
@@ -506,4 +509,4 @@ ul.structural>li {
     height: 1px;
     overflow: hidden;
     width: 1px;
-}
+} */
