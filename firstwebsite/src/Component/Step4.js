@@ -10,7 +10,7 @@ function Step4() {
           <div class="netflix-sans-font-loaded">
             <div data-uia="loc" lang="en-IN" dir="ltr">
               <div
-                class="basicLayout3 notMobile modernInApp hasLargeTypography signupSimplicity-planSelection simplicity3"
+                class="basicLayout3 notMobile modernInApp hasLargeTypography3 signupSimplicity-planSelection simplicity3"
                 lang="en-IN"
                 dir="ltr"
               >
@@ -46,18 +46,18 @@ function Step4() {
                             <span id="" class="stepIndicator3" data-uia="">
                               STEP <b>2</b> OF <b>3</b>
                             </span>
-                            <h1 class="stepTitle" data-uia="stepTitle">
+                            <h1 class="stepTitle3" data-uia="stepTitle">
                               Choose the plan that’s right for you
                             </h1>
                           </div>
                         </div>
                         <div class="changeAnytime3">
                           <ul
-                            class="checkmark-group -compact"
+                            class="checkmark-group3 -compact3"
                             data-uia="checkmark-group"
                           >
                             <li
-                              class="checkmark-group--row -compact"
+                              class="checkmark-group--row3 -compact"
                               data-uia="checkmark-group+row-0"
                             >
                               <svg
@@ -66,7 +66,7 @@ function Step4() {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="checkmark-group--icon"
+                                class="checkmark-group--icon3"
                                 data-name="Checkmark"
                                 aria-hidden="true"
                               >
@@ -78,14 +78,14 @@ function Step4() {
                                 ></path>
                               </svg>
                               <span
-                                class="checkmark-group--text"
+                                class="checkmark-group--text3"
                                 data-uia="checkmark-group+row-0+content"
                               >
                                 Watch all you want. Ad-free.
                               </span>
                             </li>
                             <li
-                              class="checkmark-group--row -compact"
+                              class="checkmark-group--row3 -compact"
                               data-uia="checkmark-group+row-1"
                             >
                               <svg
@@ -94,7 +94,7 @@ function Step4() {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="checkmark-group--icon"
+                                class="checkmark-group--icon3"
                                 data-name="Checkmark"
                                 aria-hidden="true"
                               >
@@ -106,14 +106,14 @@ function Step4() {
                                 ></path>
                               </svg>
                               <span
-                                class="checkmark-group--text"
+                                class="checkmark-group--text3"
                                 data-uia="checkmark-group+row-1+content"
                               >
                                 Recommendations just for you.
                               </span>
                             </li>
                             <li
-                              class="checkmark-group--row -compact"
+                              class="checkmark-group--row3 -compact"
                               data-uia="checkmark-group+row-2"
                             >
                               <svg
@@ -122,7 +122,7 @@ function Step4() {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="checkmark-group--icon"
+                                class="checkmark-group--icon3"
                                 data-name="Checkmark"
                                 aria-hidden="true"
                               >
@@ -135,7 +135,7 @@ function Step4() {
                                 ></path>
                               </svg>
                               <span
-                                class="checkmark-group--text"
+                                class="checkmark-group--text3"
                                 data-uia="checkmark-group+row-2+content"
                               >
                                 Change or cancel your plan anytime.
@@ -145,19 +145,19 @@ function Step4() {
                         </div>
                       </div>
                       <div
-                        class="planGrid planGrid--has4Plans"
+                        class="planGrid planGrid--has4Plans3"
                         data-uia="plan-grid"
                       >
-                        <div class="planGrid__header">
+                        <div class="planGrid__header3">
                           <div
-                            class="planGrid__selector planGrid__planSelector"
+                            class="planGrid__selector3 planGrid__planSelector3"
                             role="radiogroup"
                             aria-label="Plan"
                             aria-describedby="planGrid_planChoice_description"
                             data-uia="plan-grid-plan-selector"
                           >
                             <span
-                              class="planGrid__selectorDescription"
+                              class="planGrid__selectorDescription3"
                               id="planGrid_planChoice_description"
                               data-uia="plan-grid-plan-selector+description"
                               aria-hidden="true"
@@ -165,101 +165,101 @@ function Step4() {
                               Select the plan you'd like
                             </span>
                             <label
-                              class="planGrid__selectorChoice planGrid__planChoice"
+                              class="planGrid__selectorChoice3 planGrid__planChoice3"
                               for="planGrid_planChoice_0"
                               data-uia="plan-grid-plan-selector+label-text_1_stream_name"
                             >
                               <input
                                 type="radio"
                                 name="planChoice"
-                                class="planGrid__selectorInput planGrid__planInput"
+                                class="planGrid__selectorInput3 planGrid__planInput3"
                                 id="planGrid_planChoice_0"
                                 data-uia="plan-grid-plan-selector+input-text_1_stream_name"
                                 value="114120"
                               />
-                              <span class="planGrid__selectorLabel planGrid__planLabel">
+                              <span class="planGrid__selectorLabel3 planGrid__planLabel3">
                                 Mobile
                               </span>
                             </label>
                             <label
-                              class="planGrid__selectorChoice planGrid__planChoice"
+                              class="planGrid__selectorChoice3 planGrid__planChoice3"
                               for="planGrid_planChoice_1"
                               data-uia="plan-grid-plan-selector+label-text_1_stream_name"
                             >
                               <input
                                 type="radio"
                                 name="planChoice"
-                                class="planGrid__selectorInput planGrid__planInput"
+                                class="planGrid__selectorInput3 planGrid__planInput3"
                                 id="planGrid_planChoice_1"
                                 data-uia="plan-grid-plan-selector+input-text_1_stream_name"
                                 value="314001031"
                                 checked=""
                               />
-                              <span class="planGrid__selectorLabel planGrid__planLabel">
+                              <span class="planGrid__selectorLabel3 planGrid__planLabel3 gid">
                                 Basic
                               </span>
                             </label>
                             <label
-                              class="planGrid__selectorChoice planGrid__planChoice"
+                              class="planGrid__selectorChoice3 planGrid__planChoice3"
                               for="planGrid_planChoice_2"
                               data-uia="plan-grid-plan-selector+label-text_2_stream_name"
                             >
                               <input
                                 type="radio"
                                 name="planChoice"
-                                class="planGrid__selectorInput planGrid__planInput"
+                                class="planGrid__selectorInput3 planGrid__planInput3"
                                 id="planGrid_planChoice_2"
                                 data-uia="plan-grid-plan-selector+input-text_2_stream_name"
                                 value="10322"
                               />
-                              <span class="planGrid__selectorLabel planGrid__planLabel">
+                              <span class="planGrid__selectorLabel3 planGrid__planLabel3">
                                 Standard
                               </span>
                             </label>
                             <label
-                              class="planGrid__selectorChoice planGrid__planChoice"
+                              class="planGrid__selectorChoice3 planGrid__planChoice3"
                               for="planGrid_planChoice_3"
                               data-uia="plan-grid-plan-selector+label-text_4_stream_name"
                             >
                               <input
                                 type="radio"
                                 name="planChoice"
-                                class="planGrid__selectorInput planGrid__planInput"
+                                class="planGrid__selectorInput3 planGrid__planInput3"
                                 id="planGrid_planChoice_3"
                                 data-uia="plan-grid-plan-selector+input-text_4_stream_name"
                                 value="10341"
                               />
-                              <span class="planGrid__selectorLabel planGrid__planLabel">
+                              <span class="planGrid__selectorLabel3 planGrid__planLabel3">
                                 Premium
                               </span>
                             </label>
                           </div>
                         </div>
                         <table
-                          class="planGrid__featureTable"
+                          class="planGrid__featureTable3"
                           role="table"
                           data-uia="plan-grid-feature-table"
                         >
-                          <caption class="planGrid__featureTableCaption">
+                          <caption class="planGrid__featureTableCaption3">
                             Netflix Plan Features
                           </caption>
                           <tbody
-                            class="planGrid__featureTableBody"
+                            class="planGrid__featureTableBody3"
                             data-uia="plan-grid-feature-table-body"
                           >
                             <tr
                               role="row"
-                              class="planGrid__featureTableRow planGrid__featureTableRow--planPrice"
+                              class="planGrid__featureTableRow3 planGrid__featureTableRow--planPrice"
                             >
                               <td
-                                class="planGrid__cell planGrid__featureCell"
+                                class="planGrid__cell3 planGrid__featureCell3"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+planPrice-feature"
                               >
                                 Monthly price
                               </td>
                               <td
-                                class="planGrid__cell planGrid__stringCell"
+                                class="planGrid__cell3 planGrid__stringCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+planPrice-text_1_stream_name"
                                 aria-label="Mobile"
@@ -267,7 +267,7 @@ function Step4() {
                                 ₹&nbsp;149
                               </td>
                               <td
-                                class="planGrid__cell planGrid__cell--isSelected planGrid__stringCell"
+                                class="planGrid__cell3 planGrid__cell--isSelected3 planGrid__stringCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+planPrice-text_1_stream_name"
                                 aria-label="Basic"
@@ -275,7 +275,7 @@ function Step4() {
                                 ₹&nbsp;199
                               </td>
                               <td
-                                class="planGrid__cell planGrid__stringCell"
+                                class="planGrid__cell3 planGrid__stringCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+planPrice-text_2_stream_name"
                                 aria-label="Standard"
@@ -283,7 +283,7 @@ function Step4() {
                                 ₹&nbsp;499
                               </td>
                               <td
-                                class="planGrid__cell planGrid__stringCell"
+                                class="planGrid__cell3 planGrid__stringCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+planPrice-text_4_stream_name"
                                 aria-label="Premium"
@@ -293,17 +293,17 @@ function Step4() {
                             </tr>
                             <tr
                               role="row"
-                              class="planGrid__featureTableRow planGrid__featureTableRow--videoQuality"
+                              class="planGrid__featureTableRow3 planGrid__featureTableRow--videoQuality"
                             >
                               <td
-                                class="planGrid__cell planGrid__featureCell"
+                                class="planGrid__cell3 planGrid__featureCell3"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+videoQuality-feature"
                               >
                                 Video quality
                               </td>
                               <td
-                                class="planGrid__cell planGrid__videoQualityCell"
+                                class="planGrid__cell3 planGrid__videoQualityCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+videoQuality-text_1_stream_name"
                                 aria-label="Mobile"
@@ -313,7 +313,7 @@ function Step4() {
                                 </div>
                               </td>
                               <td
-                                class="planGrid__cell planGrid__cell--isSelected planGrid__videoQualityCell"
+                                class="planGrid__cell3 planGrid__cell--isSelected3 planGrid__videoQualityCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+videoQuality-text_1_stream_name"
                                 aria-label="Basic"
@@ -323,7 +323,7 @@ function Step4() {
                                 </div>
                               </td>
                               <td
-                                class="planGrid__cell planGrid__videoQualityCell"
+                                class="planGrid__cell3 planGrid__videoQualityCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+videoQuality-text_2_stream_name"
                                 aria-label="Standard"
@@ -333,7 +333,7 @@ function Step4() {
                                 </div>
                               </td>
                               <td
-                                class="planGrid__cell planGrid__videoQualityCell"
+                                class="planGrid__cell3 planGrid__videoQualityCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+videoQuality-text_4_stream_name"
                                 aria-label="Premium"
@@ -345,17 +345,17 @@ function Step4() {
                             </tr>
                             <tr
                               role="row"
-                              class="planGrid__featureTableRow planGrid__featureTableRow--resolution"
+                              class="planGrid__featureTableRow3 planGrid__featureTableRow--resolution"
                             >
                               <td
-                                class="planGrid__cell planGrid__featureCell"
+                                class="planGrid__cell3 planGrid__featureCell3"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+resolution-feature"
                               >
                                 Resolution
                               </td>
                               <td
-                                class="planGrid__cell planGrid__videoQualityCell"
+                                class="planGrid__cell3 planGrid__videoQualityCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+resolution-text_1_stream_name"
                                 aria-label="Mobile"
@@ -365,7 +365,7 @@ function Step4() {
                                 </div>
                               </td>
                               <td
-                                class="planGrid__cell planGrid__cell--isSelected planGrid__videoQualityCell"
+                                class="planGrid__cell3 planGrid__cell--isSelected3 planGrid__videoQualityCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+resolution-text_1_stream_name"
                                 aria-label="Basic"
@@ -375,7 +375,7 @@ function Step4() {
                                 </div>
                               </td>
                               <td
-                                class="planGrid__cell planGrid__videoQualityCell"
+                                class="planGrid__cell3 planGrid__videoQualityCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+resolution-text_2_stream_name"
                                 aria-label="Standard"
@@ -385,7 +385,7 @@ function Step4() {
                                 </div>
                               </td>
                               <td
-                                class="planGrid__cell planGrid__videoQualityCell"
+                                class="planGrid__cell3 planGrid__videoQualityCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+resolution-text_4_stream_name"
                                 aria-label="Premium"
@@ -397,17 +397,17 @@ function Step4() {
                             </tr>
                             <tr
                               role="row"
-                              class="planGrid__featureTableRow planGrid__featureTableRow--supportedDevices"
+                              class="planGrid__featureTableRow3 planGrid__featureTableRow--supportedDevices3"
                             >
                               <td
-                                class="planGrid__cell planGrid__featureCell"
+                                class="planGrid__cell3 planGrid__featureCell3"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+supportedDevices-feature"
                               >
                                 Devices you can use to watch
                               </td>
                               <td
-                                class="planGrid__cell planGrid__supportedDevicesCell"
+                                class="planGrid__cell3 planGrid__supportedDevicesCell"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+supportedDevices-text_1_stream_name"
                                 aria-label="Mobile"
@@ -419,7 +419,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Phone"
                                     focusable="false"
                                   >
@@ -430,7 +430,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Phone
                                   </div>
                                 </div>
@@ -441,7 +441,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Tablet"
                                     focusable="false"
                                   >
@@ -452,13 +452,13 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Tablet
                                   </div>
                                 </div>
                               </td>
                               <td
-                                class="planGrid__cell planGrid__cell--isSelected planGrid__supportedDevicesCell"
+                                class="planGrid__cell3 planGrid__cell--isSelected3 planGrid__supportedDevicesCell3"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+supportedDevices-text_1_stream_name"
                                 aria-label="Basic"
@@ -470,7 +470,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Phone"
                                     focusable="false"
                                   >
@@ -481,7 +481,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Phone
                                   </div>
                                 </div>
@@ -492,7 +492,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Tablet"
                                     focusable="false"
                                   >
@@ -503,7 +503,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Tablet
                                   </div>
                                 </div>
@@ -514,7 +514,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Laptop"
                                     focusable="false"
                                   >
@@ -525,7 +525,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Computer
                                   </div>
                                 </div>
@@ -536,7 +536,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Tv"
                                     focusable="false"
                                   >
@@ -547,13 +547,13 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     TV
                                   </div>
                                 </div>
                               </td>
                               <td
-                                class="planGrid__cell planGrid__supportedDevicesCell"
+                                class="planGrid__cell3 planGrid__supportedDevicesCell3"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+supportedDevices-text_2_stream_name"
                                 aria-label="Standard"
@@ -565,7 +565,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Phone"
                                     focusable="false"
                                   >
@@ -576,7 +576,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Phone
                                   </div>
                                 </div>
@@ -587,7 +587,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Tablet"
                                     focusable="false"
                                   >
@@ -598,7 +598,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Tablet
                                   </div>
                                 </div>
@@ -609,7 +609,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Laptop"
                                     focusable="false"
                                   >
@@ -620,7 +620,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Computer
                                   </div>
                                 </div>
@@ -631,7 +631,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Tv"
                                     focusable="false"
                                   >
@@ -642,13 +642,13 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     TV
                                   </div>
                                 </div>
                               </td>
                               <td
-                                class="planGrid__cell planGrid__supportedDevicesCell"
+                                class="planGrid__cell3 planGrid__supportedDevicesCell3"
                                 role="cell"
                                 data-uia="plan-grid-feature-table-cell+supportedDevices-text_4_stream_name"
                                 aria-label="Premium"
@@ -660,7 +660,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Phone"
                                     focusable="false"
                                   >
@@ -671,7 +671,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Phone
                                   </div>
                                 </div>
@@ -682,7 +682,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Tablet"
                                     focusable="false"
                                   >
@@ -693,7 +693,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Tablet
                                   </div>
                                 </div>
@@ -704,7 +704,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Laptop"
                                     focusable="false"
                                   >
@@ -715,7 +715,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     Computer
                                   </div>
                                 </div>
@@ -726,7 +726,7 @@ function Step4() {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="planGrid__supportedDevicesIcon"
+                                    class="planGrid__supportedDevicesIcon3"
                                     data-name="Tv"
                                     focusable="false"
                                   >
@@ -737,7 +737,7 @@ function Step4() {
                                       fill="currentColor"
                                     ></path>
                                   </svg>
-                                  <div class="planGrid__supportedDevicesLabel">
+                                  <div class="planGrid__supportedDevicesLabel3">
                                     TV
                                   </div>
                                 </div>
@@ -746,7 +746,7 @@ function Step4() {
                           </tbody>
                         </table>
                         <div>
-                          <small class="planGrid__disclaimer planGrid__standardDisclaimer">
+                          <small class="planGrid__disclaimer3 planGrid__standardDisclaimer">
                             <span id="" data-uia="plan-grid-legal">
                               HD (720p), Full HD (1080p), Ultra HD (4K) and HDR
                               availability subject to your internet service and
@@ -761,7 +761,7 @@ function Step4() {
                               for more details.
                             </span>
                           </small>
-                          <small class="planGrid__disclaimer planGrid__standardDisclaimer">
+                          <small class="planGrid__disclaimer3 planGrid__standardDisclaimer">
                             <span id="" data-uia="plan-grid-legal">
                               Only people who live with you may use your
                               account. Watch on 4 different devices at the same
@@ -772,12 +772,12 @@ function Step4() {
                         </div>
                       </div>
                     </div>
-                    <div class="submitBtnContainer">
+                    <div class="submitBtnContainer3">
                       <button
                         type="button"
                         autocomplete="off"
                         tabindex="0"
-                        class="nf-btn nf-btn-primary nf-btn-solid nf-btn-oversize"
+                        class="nf-btn3 nf-btn-primary3 nf-btn-solid3 nf-btn-oversize3"
                         data-uia="cta-plan-selection"
                         placeholder="planSelection_button_continue"
                       >
@@ -786,22 +786,22 @@ function Step4() {
                     </div>
                   </div>
                 </div>
-                <div class="site-footer-wrapper centered">
-                  <div class="footer-divider"></div>
-                  <div class="site-footer">
-                    <p class="footer-top">
+                <div class="site-footer-wrapper2 centered">
+                  <div class="footer-divider2"></div>
+                  <div class="site-footer2">
+                    <p class="footer-top2">
                       Questions? Call{" "}
                       <a class="footer-top-a" href="tel:000-800-919-1694">
                         000-800-919-1694
                       </a>
                     </p>
-                    <ul class="footer-links structural">
+                    <ul class="footer-links2 structural">
                       <li
-                        class="footer-link-item"
+                        class="footer-link-item2"
                         placeholder="footer_responsive_link_faq_item"
                       >
                         <a
-                          class="footer-link"
+                          class="footer-link2"
                           data-uia="footer-link"
                           href="https://help.netflix.com/support/412"
                           placeholder="footer_responsive_link_faq"
@@ -812,11 +812,11 @@ function Step4() {
                         </a>
                       </li>
                       <li
-                        class="footer-link-item"
+                        class="footer-link-item2"
                         placeholder="footer_responsive_link_help_item"
                       >
                         <a
-                          class="footer-link"
+                          class="footer-link2"
                           data-uia="footer-link"
                           href="https://help.netflix.com"
                           placeholder="footer_responsive_link_help"
@@ -827,11 +827,11 @@ function Step4() {
                         </a>
                       </li>
                       <li
-                        class="footer-link-item"
+                        class="footer-link-item2"
                         placeholder="footer_responsive_link_netflix_shop_item"
                       >
                         <a
-                          class="footer-link"
+                          class="footer-link2"
                           data-uia="footer-link"
                           href="https://netflix.shop/"
                           placeholder="footer_responsive_link_netflix_shop"
@@ -842,11 +842,11 @@ function Step4() {
                         </a>
                       </li>
                       <li
-                        class="footer-link-item"
+                        class="footer-link-item2"
                         placeholder="footer_responsive_link_terms_item"
                       >
                         <a
-                          class="footer-link"
+                          class="footer-link2"
                           data-uia="footer-link"
                           href="https://help.netflix.com/legal/termsofuse"
                           placeholder="footer_responsive_link_terms"
@@ -857,11 +857,11 @@ function Step4() {
                         </a>
                       </li>
                       <li
-                        class="footer-link-item"
+                        class="footer-link-item2"
                         placeholder="footer_responsive_link_privacy_separate_link_item"
                       >
                         <a
-                          class="footer-link"
+                          class="footer-link2"
                           data-uia="footer-link"
                           href="https://help.netflix.com/legal/privacy"
                           placeholder="footer_responsive_link_privacy_separate_link"
@@ -872,11 +872,11 @@ function Step4() {
                         </a>
                       </li>
                       <li
-                        class="footer-link-item"
+                        class="footer-link-item2"
                         placeholder="footer_responsive_link_cookies_separate_link_item"
                       >
                         <a
-                          class="footer-link"
+                          class="footer-link2"
                           data-uia="footer-link"
                           href="#"
                           placeholder="footer_responsive_link_cookies_separate_link"
@@ -887,11 +887,11 @@ function Step4() {
                         </a>
                       </li>
                       <li
-                        class="footer-link-item"
+                        class="footer-link-item2"
                         placeholder="footer_responsive_link_corporate_information_item"
                       >
                         <a
-                          class="footer-link"
+                          class="footer-link2"
                           data-uia="footer-link"
                           href="https://help.netflix.com/legal/corpinfo"
                           placeholder="footer_responsive_link_corporate_information"
@@ -902,18 +902,18 @@ function Step4() {
                         </a>
                       </li>
                     </ul>
-                    <div class="lang-selection-container" id="lang-switcher">
+                    <div class="lang-selection-container2" id="lang-switcher">
                       <div
-                        class="nfSelectWrapper inFooter selectArrow prefix"
+                        class="nfSelectWrapper2 inFooter2 selectArrow2 prefix2"
                         data-uia="language-picker+container"
                       >
-                        <label class="nfLabel" for="lang-switcher-select">
+                        <label class="nfLabel2" for="lang-switcher-select">
                           Select Language
                         </label>
-                        <div class="nfSelectPlacement globe">
+                        <div class="nfSelectPlacement2 globe">
                           <select
                             data-uia="language-picker"
-                            class="nfSelect"
+                            class="nfSelect2"
                             id="lang-switcher-select"
                             name="__langSelect"
                             tabindex="0"
@@ -922,14 +922,14 @@ function Step4() {
                               selected=""
                               label="English"
                               lang="en"
-                              value="/signup/planform?locale=en-IN"
+                              value="/signup?locale=en-IN"
                             >
                               English
                             </option>
                             <option
                               label="हिन्दी"
                               lang="hi"
-                              value="/signup/planform?locale=hi-IN"
+                              value="/signup?locale=hi-IN"
                             >
                               हिन्दी
                             </option>
@@ -939,6 +939,7 @@ function Step4() {
                     </div>
                   </div>
                 </div>
+
                 <div
                   class="a11yAnnouncer"
                   aria-live="assertive"

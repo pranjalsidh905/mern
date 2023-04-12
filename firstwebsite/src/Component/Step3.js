@@ -13,9 +13,9 @@ function Step3() {
               dir="ltr"
             >
               <div class="nfHeader2 noBorderHeader signupBasicHeader2 onboarding-header">
-              <div class="img-div1">
-                <img class="img1" src={Logo} />
-              </div>
+                <div class="img-div1">
+                  <img class="img1" src={Logo} />
+                </div>
                 <a
                   href="/signout"
                   class="authLinks2 signupBasicHeader2 onboarding-header"
@@ -32,7 +32,6 @@ function Step3() {
                 <div
                   class="centerContainer2 contextStep2 firstLoad2"
                   tabindex="0"
-                 
                 >
                   <div
                     class="planContainer2"
@@ -154,10 +153,7 @@ function Step3() {
                   </div>
                 </div>
               </div>
-              <div
-                class="site-footer-wrapper2 centered"
-             
-              >
+              <div class="site-footer-wrapper2 centered">
                 <div class="footer-divider2"></div>
                 <div class="site-footer2">
                   <p class="footer-top2">

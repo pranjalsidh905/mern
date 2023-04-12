@@ -1,0 +1,142 @@
+ * {
+     letter-spacing: 0 !important;
+ }
+
+ .Header1 {
+     width: 100%;
+     border-bottom: 1px solid #e6e6e6;
+     background-color: #fff;
+     height: 90px;
+
+ }
+
+ .img-div1 {
+     width: 12%;
+
+     display: inline-block;
+     line-height: 90px;
+     text-decoration: none;
+     vertical-align: middle;
+     margin-left: 3%;
+
+
+ }
+
+ .img1 {
+
+     width: 167px;
+ }
+
+
+
+ .basicLayout6.simplicity6 {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+     padding-bottom: 0;
+ }
+
+ div.basicLayout6 .nfHeader6 {
+     border-bottom: 1px solid #e6e6e6;
+ }
+
+ div.basicLayout6 .nfHeader6,
+ div.basicLayout6 .simpleContainer6 {
+     background-color: #fff;
+ }
+
+ .nfHeader6,
+ .nfHeader6.signupBasicHeader6 {
+     height: 90px;
+ }
+
+ .noBorderHeader6 {
+     background-color: transparent;
+     border-bottom: 0;
+     position: relative;
+ }
+
+ .authLinks6.signupBasicHeader6 {
+     margin: 0 3%;
+ }
+
+ .authLinks6 {
+     color: #333;
+     float: right;
+     font-size: 19px;
+     font-weight: 500;
+     line-height: 90px;
+     text-decoration: none;
+ }
+
+ #appMountPoint .simpleContainer6 {
+     padding-bottom: 95px;
+ }
+
+ .basicLayout6.simplicity6 .simpleContainer6 {
+     flex-grow: 1;
+ }
+
+ div.basicLayout6 .nfHeader6,
+ div.basicLayout6 .simpleContainer6 {
+     background-color: #fff;
+ }
+
+ .simpleContainer6 {
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     overflow: hidden;
+     width: 100%;
+ }
+
+ div.basicLayout6 .centerContainer6 {
+     --layout-container-side-padding: 32px;
+     padding: 20px 32px 60px;
+     padding: 20px var(--layout-container-side-padding) 60px;
+ }
+
+ .centerContainer6 {
+     display: none;
+     overflow: hidden;
+     display: block;
+     transform: none;
+     opacity: 1;
+     transition-duration: 250ms;
+ }
+
+ .centerContainer6 {
+     box-sizing: border-box;
+     margin: 0 auto 15px;
+     max-width: 978px;
+     padding: 20px 3% 60px;
+ }
+
+ .paymentContainer6 {
+     margin: 0 auto;
+     max-width: 500px;
+     text-align: center;
+ }
+
+ div.basicLayout6 .paymentPickerHeading6 {
+     margin-bottom: 20px;
+ }
+
+ div.basicLayout6 .stepLogoContainer6 {
+     display: inline-block;
+ }
+
+
+
+ div.basicLayout6 .stepLogoContainer6 .stepLogo6 {
+     margin: 100px 0 20px;
+ }
+
+ div.basicLayout6 .stepLogoContainer6 .paymentStepLogo6 {
+     margin-top: 20px;
+ }
+
+ div.basicLayout6 .paymentStepLogo6,
+ div.basicLayout6 .planStepLogo6 {
+     background-size: 50px;
+     height: 50px;
+     width: 50px;
+ }
