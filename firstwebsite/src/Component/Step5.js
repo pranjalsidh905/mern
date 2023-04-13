@@ -1,7 +1,14 @@
 import React from "react";
 import "../css/Step5.css";
 import Logo from "./Images/net.png";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+
 function Step5() {
+
+const element = <FontAwesomeIcon icon={faEnvelope} />
   return (
     <div>
       <div id="appMountPoint">
@@ -9,7 +16,7 @@ function Step5() {
           <div class="netflix-sans-font-loaded">
             <div data-uia="loc" lang="en-IN" dir="ltr">
               <div
-                class="basicLayout6 notMobile modernInApp hasLargeTypography signupSimplicity-paymentPicker simplicity6"
+                class="basicLayout6 notMobile modernInApp hasLargeTypography6 signupSimplicity-paymentPicker simplicity6"
                 lang="en-IN"
                 dir="ltr"
               >
@@ -37,42 +44,42 @@ function Step5() {
                           <span class="stepLogo6 paymentStepLogo6"></span>
                         </div>
                         <div class="stepHeader-container" data-uia="header">
-                          <div class="stepHeader" role="status">
-                            <span id="" class="stepIndicator" data-uia="">
+                          <div class="stepHeader6" role="status">
+                            <span id="" class="stepIndicator6" data-uia="">
                               STEP <b>3</b> OF <b>3</b>
                             </span>
-                            <h1 class="stepTitle" data-uia="stepTitle">
+                            <h1 class="stepTitle6" data-uia="stepTitle">
                               Choose how to pay
                             </h1>
                           </div>
                         </div>
                         <div
-                          class="narrowContainer"
+                          class="narrowContainer6"
                           data-uia="messagesContainer"
                         >
                           <div
                             id=""
-                            class="contextRow contextRowFirst"
+                            class="contextRow6 contextRowFirst6"
                             data-uia=""
                           >
                             Your payment is encrypted and you can change your
                             payment method at anytime.
                           </div>
-                          <div class="contextRow" data-uia="encouragements">
-                            <div class="contextRowEmphasized">
+                          <div class="contextRow6" data-uia="encouragements">
+                            <div class="contextRowEmphasized6">
                               Secure for peace of mind.
                             </div>
-                            <div class="contextRowEmphasized">
+                            <div class="contextRowEmphasized6">
                               Cancel easily online.
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="secure-server-badge-align-right">
+                      <div class="secure-server-badge-align-right6">
                         <svg
                           id="secure-server-icon"
                           viewBox="0 0 12 16"
-                          class="secure-server-badge--icon default-ltr-cache-189sllk"
+                          class="secure-server-badge--icon6 default-ltr-cache-189sllk"
                         >
                           <g fill="none">
                             <g fill="#FFB53F">
@@ -80,30 +87,30 @@ function Step5() {
                             </g>
                           </g>
                         </svg>
-                        <div class="secure-server-badge--text">
+                        <div class="secure-server-badge--text6">
                           End-to-end encrypted
                         </div>
                       </div>
                       <form method="POST" data-uia="payment-picker-form">
-                        <div class="basic-spinner-region">
+                        <div class="basic-spinner-region6">
                           <div
                             data-uia="loading-indicator"
-                            class="basic-spinner center-absolute isHidden"
+                            class="basic-spinner6 center-absolute6 isHidden6"
                           ></div>
                           <div>
                             <button
-                              class="paymentTab overrides paymentPicker standardHeight default-ltr-cache-qnpyub"
+                              class="paymentTab6 overrides6 paymentPicker6 standardHeight6 default-ltr-cache-qnpyub6"
                               id="creditOrDebitCardDisplayStringId"
                               data-uia="payment-choice+creditOrDebitOption"
                               type="button"
                             ></button>
-                            <div class="mopNameAndLogos">
-                              <div class="paymentTab--text card-type-text">
-                                <span class="selectionLabel">
+                            <div class="mopNameAndLogos6">
+                              <div class="paymentTab--text card-type-text6">
+                                <span class="selectionLabel6">
                                   Credit or Debit Card
                                 </span>
                               </div>
-                              <div class="logosContainer">
+                              <div class="logosContainer6">
                                 <span
                                   class="logos logos-inline"
                                   data-uia="cardLogos-comp"
@@ -166,16 +173,16 @@ function Step5() {
                         </span>
                       </form>
                       <button
-                        class="paymentTab overrides paymentPicker standardHeight default-ltr-cache-qnpyub"
+                        class="paymentTab6 overrides6 paymentPicker6 standardHeight6 default-ltr-cache-qnpyub6"
                         id="upiDisplayStringId"
                         data-uia="payment-choice+upiPaymentOption"
                         type="button"
                       ></button>
-                      <div class="mopNameAndLogos">
-                        <div class="paymentTab--text card-type-text">
-                          <span class="selectionLabel">UPI AutoPay</span>
+                      <div class="mopNameAndLogos6">
+                        <div class="paymentTab--text card-type-text6">
+                          <span class="selectionLabel6">UPI AutoPay</span>
                         </div>
-                        <div class="logosContainer">
+                        <div class="logosContainer6">
                           <span
                             class="logos logos-inline"
                             data-uia="cardLogos-comp"
@@ -247,22 +254,23 @@ function Step5() {
                 </div>
               </div>
             </div>
-            <div class="site-footer-wrapper centered">
-              <div class="footer-divider"></div>
-              <div class="site-footer">
-                <p class="footer-top">
+
+            <div class="site-footer-wrapper2 centered">
+              <div class="footer-divider2"></div>
+              <div class="site-footer2">
+                <p class="footer-top2">
                   Questions? Call{" "}
                   <a class="footer-top-a" href="tel:000-800-919-1694">
                     000-800-919-1694
                   </a>
                 </p>
-                <ul class="footer-links structural">
+                <ul class="footer-links2 structural">
                   <li
-                    class="footer-link-item"
+                    class="footer-link-item2"
                     placeholder="footer_responsive_link_faq_item"
                   >
                     <a
-                      class="footer-link"
+                      class="footer-link2"
                       data-uia="footer-link"
                       href="https://help.netflix.com/support/412"
                       placeholder="footer_responsive_link_faq"
@@ -273,11 +281,11 @@ function Step5() {
                     </a>
                   </li>
                   <li
-                    class="footer-link-item"
+                    class="footer-link-item2"
                     placeholder="footer_responsive_link_help_item"
                   >
                     <a
-                      class="footer-link"
+                      class="footer-link2"
                       data-uia="footer-link"
                       href="https://help.netflix.com"
                       placeholder="footer_responsive_link_help"
@@ -288,11 +296,11 @@ function Step5() {
                     </a>
                   </li>
                   <li
-                    class="footer-link-item"
+                    class="footer-link-item2"
                     placeholder="footer_responsive_link_netflix_shop_item"
                   >
                     <a
-                      class="footer-link"
+                      class="footer-link2"
                       data-uia="footer-link"
                       href="https://netflix.shop/"
                       placeholder="footer_responsive_link_netflix_shop"
@@ -303,11 +311,11 @@ function Step5() {
                     </a>
                   </li>
                   <li
-                    class="footer-link-item"
+                    class="footer-link-item2"
                     placeholder="footer_responsive_link_terms_item"
                   >
                     <a
-                      class="footer-link"
+                      class="footer-link2"
                       data-uia="footer-link"
                       href="https://help.netflix.com/legal/termsofuse"
                       placeholder="footer_responsive_link_terms"
@@ -318,11 +326,11 @@ function Step5() {
                     </a>
                   </li>
                   <li
-                    class="footer-link-item"
+                    class="footer-link-item2"
                     placeholder="footer_responsive_link_privacy_separate_link_item"
                   >
                     <a
-                      class="footer-link"
+                      class="footer-link2"
                       data-uia="footer-link"
                       href="https://help.netflix.com/legal/privacy"
                       placeholder="footer_responsive_link_privacy_separate_link"
@@ -333,11 +341,11 @@ function Step5() {
                     </a>
                   </li>
                   <li
-                    class="footer-link-item"
+                    class="footer-link-item2"
                     placeholder="footer_responsive_link_cookies_separate_link_item"
                   >
                     <a
-                      class="footer-link"
+                      class="footer-link2"
                       data-uia="footer-link"
                       href="#"
                       placeholder="footer_responsive_link_cookies_separate_link"
@@ -348,11 +356,11 @@ function Step5() {
                     </a>
                   </li>
                   <li
-                    class="footer-link-item"
+                    class="footer-link-item2"
                     placeholder="footer_responsive_link_corporate_information_item"
                   >
                     <a
-                      class="footer-link"
+                      class="footer-link2"
                       data-uia="footer-link"
                       href="https://help.netflix.com/legal/corpinfo"
                       placeholder="footer_responsive_link_corporate_information"
@@ -363,18 +371,18 @@ function Step5() {
                     </a>
                   </li>
                 </ul>
-                <div class="lang-selection-container" id="lang-switcher">
+                <div class="lang-selection-container2" id="lang-switcher">
                   <div
-                    class="nfSelectWrapper inFooter selectArrow prefix"
+                    class="nfSelectWrapper2 inFooter2 selectArrow2 prefix2"
                     data-uia="language-picker+container"
                   >
-                    <label class="nfLabel" for="lang-switcher-select">
+                    <label class="nfLabel2" for="lang-switcher-select">
                       Select Language
                     </label>
-                    <div class="nfSelectPlacement globe">
+                    <div class="nfSelectPlacement2 globe">
                       <select
                         data-uia="language-picker"
-                        class="nfSelect"
+                        class="nfSelect2"
                         id="lang-switcher-select"
                         name="__langSelect"
                         tabindex="0"
@@ -383,18 +391,26 @@ function Step5() {
                           selected=""
                           label="English"
                           lang="en"
-                          value="/signup/paymentPicker?locale=en-IN"
+                          value="/signup?locale=en-IN"
                         >
                           English
                         </option>
                         <option
                           label="हिन्दी"
                           lang="hi"
-                          value="/signup/paymentPicker?locale=hi-IN"
+                          value="/signup?locale=hi-IN"
                         >
                           हिन्दी
                         </option>
                       </select>
+
+                      <div>
+                        <FontAwesomeIcon icon="fa-solid fa-check-square" />
+                        Your <FontAwesomeIcon icon="fa-regular fa-coffee" /> is
+                        hot! Compliments of the{" "}
+                        <FontAwesomeIcon icon="fa-sharp fa-solid fa-hat-chef" />
+                        !
+                      </div>
                     </div>
                   </div>
                 </div>

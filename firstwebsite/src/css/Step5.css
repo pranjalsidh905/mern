@@ -140,3 +140,238 @@
      height: 50px;
      width: 50px;
  }
+
+ .paymentContainer6 .stepLogo6,
+ .paymentFormContainer6 .stepLogo6 {
+     display: block;
+     margin: 5% 0 0;
+ }
+
+ .paymentStepLogo6 {
+     background: url(https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Lock.png) no-repeat 50% 50%;
+     background-size: 60px;
+     height: 60px;
+ }
+
+ .paymentContainer6 .actionLink6,
+ .paymentContainer6 .stepHeader6,
+ .paymentFormContainer6 .stepHeader6 {
+     margin-top: 20px;
+ }
+
+ .stepHeader6 {
+     display: inline-block;
+ }
+
+ div.basicLayout6 .stepIndicator6 {
+     font-size: 13px;
+     text-align: inherit;
+ }
+
+ .stepIndicator6 {
+     display: block;
+     font-size: 13px;
+     line-height: 19px;
+     text-align: left;
+     color: black;
+ }
+
+ div.basicLayout6.hasLargeTypography6 h1 {
+     font-size: 32px;
+ }
+
+
+ .stepTitle6 {
+     display: inline-block;
+     font-size: 23px;
+     font-weight: 500;
+ }
+
+ .paymentContainer6 .narrowContainer6 {
+     margin: 0 auto;
+     max-width: 440px;
+ }
+
+
+
+ div.basicLayout6.hasLargeTypography6 .checkmark-group--text6,
+ div.basicLayout6.hasLargeTypography6 .contextRow6,
+ div.basicLayout6.hasLargeTypography6 .regContainer6 .contextBody6,
+ div.basicLayout6.hasLargeTypography6 .regFormContainer6 .contextRow6 {
+     font-size: 18px;
+     margin-bottom: 0;
+     margin-top: 0;
+     font-size: 18px;
+     margin-top: 10px;
+ }
+
+ .paymentContainer6 .contextRowFirst6,
+ .paymentFormContainer6 .contextRowFirst6 {
+     margin-top: 20px;
+     color: black;
+ }
+
+ div.basicLayout6.hasLargeTypography6 .paymentContainer6.contextRow6+.contextRow6,
+ div.basicLayout6.hasLargeTypography6 .paymentFormContainer6 .contextRow6+.contextRow6,
+ div.basicLayout6.hasLargeTypography6 .regFormContainer6 .contextRow6+.contextRow6 {
+     font-size: 18px;
+     margin-top: 10px;
+ }
+
+ .paymentContainer6 .contextRowEmphasized6,
+ .paymentFormContainer6 .contextRowEmphasized6 {
+     font-weight: 500;
+     color: black;
+ }
+
+ .secure-server-badge-align-right6 {
+     align-items: flex-end;
+     display: flex;
+     flex-direction: row-reverse;
+     height: 16px;
+     justify-content: flex-start;
+ }
+
+ .secure-server-badge-align-right6 .secure-server-badge--icon6 {
+     margin-left: 2px;
+ }
+
+ svg:not(:root) {
+     overflow: hidden;
+ }
+
+ .secure-server-badge--icon6 {
+     height: 16px;
+     width: 16px;
+ }
+
+ .secure-server-badge--text6 {
+     font-size: 13px;
+     height: 14px;
+     color: black;
+ }
+
+ .basic-spinner-region6 {
+     position: relative;
+     min-height: 50px;
+ }
+
+ .basic-spinner6.isHidden6 {
+     display: none;
+     height: 50px;
+     width: 50px;
+ }
+
+ .center-absolute6 {
+     left: 50%;
+     position: absolute;
+     top: 50%;
+     z-index: 1;
+ }
+
+ .basic-spinner6 {
+     animation: full-rotation 1s linear infinite;
+     animation-direction: normal;
+     background-image: url(https://assets.nflxext.com/ffe/siteui/common/site-spinner-240.png);
+     background-position: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 50%;
+     display: inline-block;
+     height: 57px;
+     margin: 0 auto;
+     opacity: 1;
+     width: 57px;
+ }
+
+ #appMountPoint .paymentPicker6 {
+     align-items: center;
+     display: flex;
+     height: auto;
+     min-height: 60px;
+     text-decoration: none;
+ }
+
+ .paymentPicker6.standardHeight6 {
+     height: 60px;
+     line-height: 60px;
+ }
+
+ .paymentTab6.overrides6 {
+     background-color: #fff;
+     border: 2px solid #ccc;
+     border-radius: 5px;
+     color: #333;
+     cursor: pointer;
+     display: flex;
+     justify-content: space-between;
+     margin: 5px 0;
+     transition: position .5s ease-in;
+     width: 100%;
+ }
+
+ .default-ltr-cache-qnpyub6 {
+     appearance: none;
+     background: none;
+     border-radius: 0px;
+     border: 0px;
+     box-sizing: content-box;
+     color: inherit;
+     cursor: default;
+     display: inline;
+     font: inherit;
+     letter-spacing: inherit;
+     margin: 0px;
+     padding: 0px;
+     text-decoration: none;
+ }
+
+ .paymentPicker6 {
+
+     position: relative;
+     text-align: left;
+ }
+
+ #appMountPoint .paymentPicker6 .mopNameAndLogos6 {
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     height: auto;
+     justify-content: flex-start;
+     padding: 15px 0;
+ }
+
+
+ #appMountPoint .paymentPicker6 .card-type-text6 {
+     float: none;
+     margin-bottom: 5px;
+     margin-right: 0;
+     margin-top: 5px;
+     max-width: none;
+ }
+
+ #appMountPoint .paymentPicker6 .card-type-text6,
+ #appMountPoint .paymentPicker6 .logosContainer6,
+ #appMountPoint .paymentPicker6 .selectionLabel6 {
+     line-height: 20px;
+     min-height: 20px;
+ }
+
+ .paymentPicker6 .card-type-text6 {
+     float: left;
+     margin: 0 15px;
+     max-width: 60%;
+ }
+
+ #appMountPoint .paymentPicker6 .selectionLabel6 {
+     display: block;
+
+ }
+
+ .paymentPicker6 .selectionLabel6 {
+     display: inline-block;
+     line-height: normal;
+     vertical-align: middle;
+     color: black;
+
+ }

@@ -13,7 +13,7 @@ import Step5 from "./Component/Step5";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Step5 />
+    <Step4 />
   </React.StrictMode>
 );
 
