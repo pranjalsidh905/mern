@@ -1,4 +1,4 @@
-* {
+ /* * {
     letter-spacing: 0 !important;
 }
 
@@ -26,6 +26,7 @@
 
     width: 167px;
 }
+
 
 .basicLayout3.simplicity3 {
     display: flex;
@@ -632,4 +633,4 @@ div.basicLayout3 .nf-btn-secondary3 {
     border-top: 1px solid #e6e6e6;
     height: 0;
     width: 100%;
-}
+} */ 

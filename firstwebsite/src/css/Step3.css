@@ -36,8 +36,8 @@
     flex-direction: column;
     min-height: 100vh;
     padding-bottom: 0px;
-}
-
+} */
+/* 
 div.basicLayout2 .nfHeader2 {
     border-bottom: 1px solid rgb(230, 230, 230);
 }
@@ -125,8 +125,8 @@ div.basicLayout2 .planStepLogo2 {
     background-size: 50px;
     height: 50px;
     width: 50px;
-}
-
+} */
+/* 
 .planContainer2 .stepLogo2,
 .regContainer2 .stepLogo2,
 .verifyCardContainer2 .stepLogo2,
@@ -168,13 +168,13 @@ div.basicLayout2.hasLargeTypography2 h1 {
     font-size: 23px;
     font-weight: 500;
 } */
-
-/* div.basicLayout2.hasLargeTypography2 .checkmark-group--text2, div.basicLayout2.hasLargeTypography2 .contextRow2, div.basicLayout2.hasLargeTypography2 .regContainer2.contextBody2, div.basicLayout2.hasLargeTypography2 .regFormContainer2 .contextRow2 {
+/* 
+div.basicLayout2.hasLargeTypography2 .checkmark-group--text2, div.basicLayout2.hasLargeTypography2 .contextRow2, div.basicLayout2.hasLargeTypography2 .regContainer2.contextBody2, div.basicLayout2.hasLargeTypography2 .regFormContainer2 .contextRow2 {
    font-size: 18px;
    margin-bottom: 0;
    margin-top: 0;
-} */
- /* div.basicLayout2 .paymentContainer2 .contextBody2,
+}
+  div.basicLayout2 .paymentContainer2 .contextBody2,
 div.basicLayout2 .planContainer2 .contextBody2,
 div.basicLayout2 .regContainer2 .contextBody2,
 div.basicLayout2 .verifyCardContainer2 .contextBody2 {
@@ -186,8 +186,8 @@ div.basicLayout2.hasLargeTypography2 .contextRow2 {
    font-size: 18px;
    margin-bottom: 0;
    margin-top: 0;
-} */
-/* 
+} 
+
 .planContainer2 .contextRow2,
 .regContainer2 .contextRow2,
 .verifyCardContainer2 .contextRow2,
@@ -203,9 +203,9 @@ div.basicLayout2.hasLargeTypography2 .contextRow2 {
    margin-bottom: 20px;
    margin-top: 15px;
    text-align: left;
-}
+} */
 
-.checkmark-group2 {
+/* .checkmark-group2 {
    order: -1;
 } 
 
@@ -233,10 +233,10 @@ svg:not(:root) {
    flex: none;
    height: 26px;
    width: 26px;
-}
+}/*  */
 
 
-div.basicLayout2.hasLargeTypography2 .checkmark-group--text2,
+/* div.basicLayout2.hasLargeTypography2 .checkmark-group--text2,
 div.basicLayout2.hasLargeTypography2 .contextRow2,
 div.basicLayout2.hasLargeTypography2 .regContainer2 .contextBody2,
 div.basicLayout2.hasLargeTypography2 .regFormContainer2 .contextRow2 {
@@ -276,8 +276,8 @@ div.basicLayout2.hasLargeTypography2 button.nf-btn-primary {
    font-size: 24px;
    font-weight: 400;
    min-height: 64px;
-}
-
+}  */
+/* 
 .nf-btn.nf-btn-oversize {
    font-size: 19px;
    line-height: 19px;
@@ -300,18 +300,18 @@ div.basicLayout2 .nf-btn-secondary {
 .nf-btn-twotone.nf-btn-primary {
    background-color: #e50914;
    color: #fff;
-} */
+} 
 
 
-/* 
+
 div.basicLayout.hasLargeTypography button.modal-action-button,
 div.basicLayout.hasLargeTypography button.nf-btn-primary {
    border-radius: 4px;
    font-size: 24px;
    font-weight: 400;
    min-height: 64px;
-}
-
+} */
+/* 
 div.basicLayout .nf-btn-primary,
 div.basicLayout .nf-btn-secondary {
    border-radius: 2px;
@@ -370,7 +370,7 @@ div.basicLayout .nf-btn-secondary {
 } */
 
 
-.site-footer-wrapper2 {
+/* .site-footer-wrapper2 {
    background-color: #f3f3f3;
    margin-top: 0;
    opacity: 1;
@@ -423,8 +423,8 @@ div.basicLayout .nf-btn-secondary {
    padding: 0 12px 0 0;
    vertical-align: top;
    width: 25%;
-} 
-
+}  */
+/* 
 ul.structural {
    margin: 0;
    padding: 0;
@@ -508,4 +508,4 @@ ul.structural>li {
    height: 1px;
    overflow: hidden;
    width: 1px;
-}
+} */

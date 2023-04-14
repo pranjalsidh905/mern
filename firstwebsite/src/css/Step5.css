@@ -1,255 +1,283 @@
- * {
-     letter-spacing: 0 !important;
- }
+  * {
+      letter-spacing: 0 !important;
+  }
 
- .Header1 {
-     width: 100%;
-     border-bottom: 1px solid #e6e6e6;
-     background-color: #fff;
-     height: 90px;
+  .Header1 {
+      width: 100%;
+      border-bottom: 1px solid #e6e6e6;
+      background-color: #fff;
+      height: 90px;
 
- }
+  }
 
- .img-div1 {
-     width: 12%;
+  .img-div1 {
+      width: 12%;
 
-     display: inline-block;
-     line-height: 90px;
-     text-decoration: none;
-     vertical-align: middle;
-     margin-left: 3%;
-
-
- }
-
- .img1 {
-
-     width: 167px;
- }
+      display: inline-block;
+      line-height: 90px;
+      text-decoration: none;
+      vertical-align: middle;
+      margin-left: 3%;
 
 
+  }
 
- .basicLayout6.simplicity6 {
-     display: flex;
-     flex-direction: column;
-     min-height: 100vh;
-     padding-bottom: 0;
- }
+  .img1 {
 
- div.basicLayout6 .nfHeader6 {
-     border-bottom: 1px solid #e6e6e6;
- }
+      width: 167px;
+  }
 
- div.basicLayout6 .nfHeader6,
- div.basicLayout6 .simpleContainer6 {
-     background-color: #fff;
- }
+  .basicLayout6.simplicity6 {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      padding-bottom: 0;
+  }
 
- .nfHeader6,
- .nfHeader6.signupBasicHeader6 {
-     height: 90px;
- }
+  div.basicLayout6 .nfHeader6 {
+      border-bottom: 1px solid #e6e6e6;
+  }
 
- .noBorderHeader6 {
-     background-color: transparent;
-     border-bottom: 0;
-     position: relative;
- }
 
- .authLinks6.signupBasicHeader6 {
-     margin: 0 3%;
- }
+  div.basicLayout6 .nfHeader6,
+  div.basicLayout6 .simpleContainer6 {
+      background-color: #fff;
+  }
 
- .authLinks6 {
-     color: #333;
-     float: right;
-     font-size: 19px;
-     font-weight: 500;
-     line-height: 90px;
-     text-decoration: none;
- }
 
- #appMountPoint .simpleContainer6 {
-     padding-bottom: 95px;
- }
+  .nfHeader6,
+  .nfHeader6.signupBasicHeader6 {
+      height: 90px;
+  }
 
- .basicLayout6.simplicity6 .simpleContainer6 {
-     flex-grow: 1;
- }
+  .noBorderHeader {
+      background-color: transparent;
+      border-bottom: 0;
+      position: relative;
+  }
 
- div.basicLayout6 .nfHeader6,
- div.basicLayout6 .simpleContainer6 {
-     background-color: #fff;
- }
+  .noBorderHeader6 {
+      background-color: transparent;
+      border-bottom: 0;
+      position: relative;
+  }
 
- .simpleContainer6 {
-     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-     overflow: hidden;
-     width: 100%;
- }
+  .nfHeader6 {
+      background-color: #f3f3f3;
+      border-bottom: 1px solid #ccc;
+  }
 
- div.basicLayout6 .centerContainer6 {
-     --layout-container-side-padding: 32px;
-     padding: 20px 32px 60px;
-     padding: 20px var(--layout-container-side-padding) 60px;
- }
 
- .centerContainer6 {
-     display: none;
-     overflow: hidden;
-     display: block;
-     transform: none;
-     opacity: 1;
-     transition-duration: 250ms;
- }
-
- .centerContainer6 {
-     box-sizing: border-box;
-     margin: 0 auto 15px;
-     max-width: 978px;
-     padding: 20px 3% 60px;
- }
-
- .paymentContainer6 {
-     margin: 0 auto;
-     max-width: 500px;
-     text-align: center;
- }
-
- div.basicLayout6 .paymentPickerHeading6 {
-     margin-bottom: 20px;
- }
-
- div.basicLayout6 .stepLogoContainer6 {
-     display: inline-block;
- }
+  .authLinks6.signupBasicHeader6 {
+      margin: 0 3%;
+  }
 
 
 
- div.basicLayout6 .stepLogoContainer6 .stepLogo6 {
-     margin: 100px 0 20px;
- }
+  .authLinks6 {
+      color: #333;
+      float: right;
+      font-size: 19px;
+      font-weight: 500;
+      line-height: 90px;
+      text-decoration: none;
+  }
 
- div.basicLayout6 .stepLogoContainer6 .paymentStepLogo6 {
-     margin-top: 20px;
- }
-
- div.basicLayout6 .paymentStepLogo6,
- div.basicLayout6 .planStepLogo6 {
-     background-size: 50px;
-     height: 50px;
-     width: 50px;
- }
-
- .paymentContainer6 .stepLogo6,
- .paymentFormContainer6 .stepLogo6 {
-     display: block;
-     margin: 5% 0 0;
- }
-
- .paymentStepLogo6 {
-     background: url(https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Lock.png) no-repeat 50% 50%;
-     background-size: 60px;
-     height: 60px;
- }
-
- .paymentContainer6 .actionLink6,
- .paymentContainer6 .stepHeader6,
- .paymentFormContainer6 .stepHeader6 {
-     margin-top: 20px;
- }
-
- .stepHeader6 {
-     display: inline-block;
- }
-
- div.basicLayout6 .stepIndicator6 {
-     font-size: 13px;
-     text-align: inherit;
- }
-
- .stepIndicator6 {
-     display: block;
-     font-size: 13px;
-     line-height: 19px;
-     text-align: left;
-     color: black;
- }
-
- div.basicLayout6.hasLargeTypography6 h1 {
-     font-size: 32px;
- }
+  .authLinks6 a {
+      text-decoration: none;
+  }
 
 
- .stepTitle6 {
-     display: inline-block;
-     font-size: 23px;
-     font-weight: 500;
- }
+  #appMountPoint .simpleContainer6 {
+      padding-bottom: 95px;
+  }
 
- .paymentContainer6 .narrowContainer6 {
-     margin: 0 auto;
-     max-width: 440px;
- }
+  .basicLayout6.simplicity6 .simpleContainer6 {
+      flex-grow: 1;
+  }
+
+  .simpleContainer6 {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      width: 100%;
+  }
+
+  div.basicLayout6 .centerContainer6 {
+      --layout-container-side-padding: 32px;
+      padding: 20px 32px 60px;
+      padding: 20px var(--layout-container-side-padding) 60px;
+  }
+
+  .centerContainer6 {
+      display: none;
+      overflow: hidden;
+  }
+
+  .centerContainer6 {
+      box-sizing: border-box;
+      margin: 0 auto 15px;
+      max-width: 978px;
+      padding: 20px 3% 60px;
+  }
+
+  .paymentContainer6 {
+      margin: 0 auto;
+      max-width: 500px;
+      text-align: center;
+  }
+
+  div.basicLayout6 .paymentPickerHeading6 {
+      margin-bottom: 20px;
+  }
+
+  div.basicLayout6 .stepLogoContainer6 {
+      display: inline-block;
+  }
+
+  div.basicLayout6 .stepLogoContainer6 .paymentStepLogo6 {
+      margin-top: 20px;
+  }
+
+  div.basicLayout6 .stepLogoContainer6 .stepLogo6 {
+      margin: 100px 0 20px;
+  }
+
+  div.basicLayout6 .paymentStepLogo6,
+  div.basicLayout6 .planStepLogo6 {
+      background-size: 50px;
+      height: 50px;
+      width: 50px;
+
+  }
+
+  .paymentContainer6 .stepLogo6,
+  .paymentFormContainer6 .stepLogo6 {
+      display: block;
+      margin: 5% 0 0;
+  }
+
+  .paymentStepLogo6 {
+      background: url(https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Lock.png) no-repeat 50% 50%;
+      background-size: 60px;
+      height: 60px;
+  }
+
+  .paymentContainer6 .actionLink6,
+  .paymentContainer6 .stepHeader6,
+  .paymentFormContainer6 .stepHeader6 {
+      margin-top: 20px;
+  }
 
 
 
- div.basicLayout6.hasLargeTypography6 .checkmark-group--text6,
- div.basicLayout6.hasLargeTypography6 .contextRow6,
- div.basicLayout6.hasLargeTypography6 .regContainer6 .contextBody6,
- div.basicLayout6.hasLargeTypography6 .regFormContainer6 .contextRow6 {
-     font-size: 18px;
-     margin-bottom: 0;
-     margin-top: 0;
-     font-size: 18px;
-     margin-top: 10px;
- }
+  .stepHeader6 {
+      display: inline-block;
+  }
 
- .paymentContainer6 .contextRowFirst6,
- .paymentFormContainer6 .contextRowFirst6 {
-     margin-top: 20px;
-     color: black;
- }
 
- div.basicLayout6.hasLargeTypography6 .paymentContainer6.contextRow6+.contextRow6,
- div.basicLayout6.hasLargeTypography6 .paymentFormContainer6 .contextRow6+.contextRow6,
- div.basicLayout6.hasLargeTypography6 .regFormContainer6 .contextRow6+.contextRow6 {
-     font-size: 18px;
-     margin-top: 10px;
- }
 
- .paymentContainer6 .contextRowEmphasized6,
- .paymentFormContainer6 .contextRowEmphasized6 {
-     font-weight: 500;
-     color: black;
- }
+  div.basicLayout6 .stepIndicator6 {
+      font-size: 13px;
+      text-align: inherit;
+  }
 
- .secure-server-badge-align-right6 {
-     align-items: flex-end;
-     display: flex;
-     flex-direction: row-reverse;
-     height: 16px;
-     justify-content: flex-start;
- }
+  .stepIndicator6 {
+      display: block;
+      font-size: 13px;
+      line-height: 19px;
+      text-align: left;
+      color: black;
+  }
 
- .secure-server-badge-align-right6 .secure-server-badge--icon6 {
-     margin-left: 2px;
- }
+  div.basicLayout6.hasLargeTypography6 h1 {
+      font-size: 32px;
+  }
 
- svg:not(:root) {
-     overflow: hidden;
- }
+  .stepTitle6 {
+      display: inline-block;
+      font-size: 23px;
+      font-weight: 500;
+  }
+
+  .paymentContainer6 .narrowContainer6 {
+      margin: 0 auto;
+      max-width: 440px;
+  }
+
+  div.basicLayout6.hasLargeTypography6 .checkmark-group--text6,
+  div.basicLayout6.hasLargeTypography6 .contextRow6,
+  div.basicLayout6.hasLargeTypography6 .regContainer6 .contextBody6,
+  div.basicLayout6.hasLargeTypography6 .regFormContainer6 .contextRow6 {
+      font-size: 18px;
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+
+  .paymentContainer6 .contextRowFirst6,
+  .paymentFormContainer6 .contextRowFirst6 {
+      margin-top: 20px;
+      color: black;
+  }
+
+  .paymentContainer6 .contextRow6,
+  .paymentFormContainer6 .contextRow6 {
+      margin-bottom: 20px;
+  }
+
+
+  div.basicLayout6.hasLargeTypography6 .paymentContainer6.contextRow6+.contextRow6,
+  div.basicLayout6.hasLargeTypography6 .paymentFormContainer6 .contextRow6+.contextRow6,
+  div.basicLayout6.hasLargeTypography6 .regFormContainer6 .contextRow6+.contextRow6 {
+      font-size: 18px;
+      margin-top: 10px;
+  }
+
+
+
+  .paymentContainer6 .contextRowEmphasized6,
+  .paymentFormContainer6 .contextRowEmphasized6 {
+      font-weight: 500;
+      color: black;
+  }
+
+  .secure-server-badge-align-right6 {
+      align-items: flex-end;
+      display: flex;
+      flex-direction: row-reverse;
+      height: 16px;
+      justify-content: flex-start;
+  }
+
+  .secure-server-badge-align-right6 .secure-server-badge--icon6 {
+      margin-left: 2px;
+  }
+
+  svg:not(:root) {
+      overflow: hidden;
+  }
+
+  .secure-server-badge--icon6 {
+      height: 16px;
+      width: 16px;
+      vertical-align: unset;
+  }
+
+  .secure-server-badge--text6 {
+      font-size: 13px;
+      height: 14px;
+      color: black;
+  }
+
+  /*
 
  .secure-server-badge--icon6 {
      height: 16px;
      width: 16px;
+     vertical-align: unset;
+
  }
 
- .secure-server-badge--text6 {
-     font-size: 13px;
-     height: 14px;
-     color: black;
- }
+
 
  .basic-spinner-region6 {
      position: relative;
@@ -375,3 +403,29 @@
      color: black;
 
  }
+
+ .nfSelectWrapper2 .selectArrow2.prefix2 .nfSelectPlacement2.globe2:before,
+ .nfSelectWrapper2.selectArrow2.prefix2 .nfSelectPlacement2.globe2:before {
+     content: "\e896";
+ }
+
+ .nfSelectWrapper2 .selectArrow.prefix2 .nfSelectPlacement2:before,
+ .nfSelectWrapper2 .selectArrow.prefix2 .nfSelectPlacement2:before {
+     color: #333;
+     font-family: nf-icon;
+     font-size: 16px;
+     left: 15px;
+     pointer-events: none;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+
+ #appMountPoint .paymentPicker6 .mopNameAndLogos6 {
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     height: auto;
+     justify-content: flex-start;
+     padding: 15px 0;
+ } */

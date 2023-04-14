@@ -255,6 +255,7 @@ ul {
   border-bottom: 5px solid #000;
   background: #333;
   cursor: pointer;
+  list-style: none;
 }
 
 .faq li.show i {
