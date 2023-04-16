@@ -50,12 +50,6 @@
       height: 90px;
   }
 
-  .noBorderHeader {
-      background-color: transparent;
-      border-bottom: 0;
-      position: relative;
-  }
-
   .noBorderHeader6 {
       background-color: transparent;
       border-bottom: 0;
@@ -197,6 +191,7 @@
       display: inline-block;
       font-size: 23px;
       font-weight: 500;
+      color: black;
   }
 
   .paymentContainer6 .narrowContainer6 {
@@ -211,12 +206,13 @@
       font-size: 18px;
       margin-bottom: 0;
       margin-top: 0;
+
   }
 
   .paymentContainer6 .contextRowFirst6,
   .paymentFormContainer6 .contextRowFirst6 {
       margin-top: 20px;
-      color: black;
+      color: #333;
   }
 
   .paymentContainer6 .contextRow6,
@@ -268,164 +264,432 @@
       color: black;
   }
 
-  /*
+  .basic-spinner-region6 {
+      position: relative;
+      min-height: 50px;
+  }
 
- .secure-server-badge--icon6 {
-     height: 16px;
-     width: 16px;
-     vertical-align: unset;
+  .basic-spinner6.isHidden6 {
+      display: none;
+  }
 
- }
+  .center-absolute6 {
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      z-index: 1;
+
+  }
+
+  .basic-spinner6 {
+      animation: full-rotation 1s linear infinite;
+      animation-direction: normal;
+      background-image: url(https://assets.nflxext.com/ffe/siteui/common/site-spinner-240.png);
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 50%;
+      display: inline-block;
+      height: 57px;
+      margin: 0 auto;
+      opacity: 1;
+      width: 57px;
+  }
+
+  #appMountPoint .paymentPicker6 {
+      align-items: center;
+      display: flex;
+      height: auto;
+      min-height: 60px;
+      text-decoration: none;
+  }
+
+  .paymentPicker6.standardHeight6 {
+      height: 60px;
+      line-height: 60px;
+  }
+
+  .paymentTab6.overrides6 {
+      background-color: #fff;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      color: #333;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0;
+      transition: position .5s ease-in;
+      width: 100%;
+  }
+
+  .default-ltr-cache-qnpyub6 {
+      appearance: none;
+      background: none;
+      border-radius: 0px;
+      border: 0px;
+      box-sizing: content-box;
+      color: inherit;
+      cursor: default;
+      display: inline;
+      font: inherit;
+      letter-spacing: inherit;
+      margin: 0px;
+      padding: 0px;
+      text-decoration: none;
+  }
+
+  .paymentPicker6 {
+      padding: 0;
+      position: relative;
+      text-align: left;
+  }
+
+  #appMountPoint .paymentPicker6 .mopNameAndLogos6 {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+      justify-content: flex-start;
+      padding: 15px 0;
+  }
+
+  #appMountPoint .paymentPicker6 .card-type-text6 {
+      float: none;
+      margin-bottom: 5px;
+      margin-right: 0;
+      margin-top: 5px;
+      max-width: none;
+  }
+
+  #appMountPoint .paymentPicker6 .card-type-text6,
+  #appMountPoint .paymentPicker6 .logosContainer6,
+  #appMountPoint .paymentPicker6 .selectionLabel6 {
+      line-height: 20px;
+      min-height: 20px;
+  }
+
+  .paymentPicker6 .card-type-text6 {
+      float: left;
+      margin: 0 15px;
+      max-width: 60%;
+  }
+
+
+  #appMountPoint .paymentPicker6 .selectionLabel6 {
+      display: block;
+  }
+
+  #appMountPoint .paymentPicker6 .card-type-text6,
+  #appMountPoint .paymentPicker6 .logosContainer6,
+  #appMountPoint .paymentPicker6 .selectionLabel6 {
+      line-height: 20px;
+      min-height: 20px;
+  }
+
+  .paymentPicker6 .selectionLabel6 {
+      display: inline-block;
+      line-height: normal;
+      vertical-align: middle;
+  }
+
+  .paymentPicker6 .logosContainer6,
+  .paymentPicker6 .logosContainerNotHidden6 {
+      margin: 0 15px;
+      overflow: hidden;
+  }
+
+  #appMountPoint .logosContainer6 .logos-inline6 {
+      float: none;
+      margin-top: -4px;
+      white-space: nowrap;
+  }
+
+  .paymentPicker6.standardHeight6 .logos-inline6 {
+      line-height: normal;
+      max-height: 60px;
+  }
+
+  .logos6.logos-inline6 {
+      display: inline-block;
+      overflow: auto;
+      vertical-align: middle;
+  }
+
+  .logos6 {
+      position: relative;
+  }
+
+  #appMountPoint .logosContainer6 .logoIcon6 {
+      background-image: none;
+      margin-right: 6px;
+      margin-top: 4px;
+      width: auto;
+  }
+
+  #appMountPoint img.logoIcon6 {
+      background-image: none;
+      width: auto;
+  }
+
+  .paymentPicker6 .logoIcon6 {
+      display: inline-block;
+  }
+
+  .logos6 .logoIcon6 {
+      float: left;
+      height: 25px;
+      margin: 1px 6px 1px 0;
+      width: 39px;
+  }
+
+  .default-ltr-cache-kg1rox6 {
+      max-width: 39px;
+      max-height: 25px;
+  }
+
+  img {
+      border: 0;
+      height: auto;
+      max-width: 100%;
+  }
+
+  .paymentTab6.overrides6>.arrow6 {
+      flex-shrink: 0;
+      height: 24px;
+      /* line-height: 24px; */
+      padding-right: 10px;
+  }
+
+
+  #appMountPoint .paymentPicker6 {
+      align-items: center;
+      display: flex;
+      height: auto;
+      min-height: 60px;
+      text-decoration: none;
+  }
+
+  .paymentPicker6.standardHeight6 {
+      height: 60px;
+      line-height: 60px;
+  }
+
+  .paymentTab6.overrides6 {
+      background-color: #fff;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      color: #333;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0;
+      transition: position .5s ease-in;
+      width: 100%;
+  }
+
+  .default-ltr-cache-qnpyub6 {
+      appearance: none;
+      background: none;
+      border-radius: 0px;
+      border: 0px;
+      box-sizing: content-box;
+      color: inherit;
+      cursor: default;
+      display: inline;
+      font: inherit;
+      letter-spacing: inherit;
+      margin: 0px;
+      padding: 0px;
+      text-decoration: none;
+  }
+
+  .paymentPicker6 {
+      padding: 0;
+      position: relative;
+      text-align: left;
+  }
 
 
 
- .basic-spinner-region6 {
-     position: relative;
-     min-height: 50px;
- }
-
- .basic-spinner6.isHidden6 {
-     display: none;
-     height: 50px;
-     width: 50px;
- }
-
- .center-absolute6 {
-     left: 50%;
-     position: absolute;
-     top: 50%;
-     z-index: 1;
- }
-
- .basic-spinner6 {
-     animation: full-rotation 1s linear infinite;
-     animation-direction: normal;
-     background-image: url(https://assets.nflxext.com/ffe/siteui/common/site-spinner-240.png);
-     background-position: 50%;
-     background-repeat: no-repeat;
-     background-size: cover;
-     border-radius: 50%;
-     display: inline-block;
-     height: 57px;
-     margin: 0 auto;
-     opacity: 1;
-     width: 57px;
- }
-
- #appMountPoint .paymentPicker6 {
-     align-items: center;
-     display: flex;
-     height: auto;
-     min-height: 60px;
-     text-decoration: none;
- }
-
- .paymentPicker6.standardHeight6 {
-     height: 60px;
-     line-height: 60px;
- }
-
- .paymentTab6.overrides6 {
-     background-color: #fff;
-     border: 2px solid #ccc;
-     border-radius: 5px;
-     color: #333;
-     cursor: pointer;
-     display: flex;
-     justify-content: space-between;
-     margin: 5px 0;
-     transition: position .5s ease-in;
-     width: 100%;
- }
-
- .default-ltr-cache-qnpyub6 {
-     appearance: none;
-     background: none;
-     border-radius: 0px;
-     border: 0px;
-     box-sizing: content-box;
-     color: inherit;
-     cursor: default;
-     display: inline;
-     font: inherit;
-     letter-spacing: inherit;
-     margin: 0px;
-     padding: 0px;
-     text-decoration: none;
- }
-
- .paymentPicker6 {
-
-     position: relative;
-     text-align: left;
- }
-
- #appMountPoint .paymentPicker6 .mopNameAndLogos6 {
-     align-items: center;
-     display: flex;
-     flex-wrap: wrap;
-     height: auto;
-     justify-content: flex-start;
-     padding: 15px 0;
- }
+  /* footer start */
 
 
- #appMountPoint .paymentPicker6 .card-type-text6 {
-     float: none;
-     margin-bottom: 5px;
-     margin-right: 0;
-     margin-top: 5px;
-     max-width: none;
- }
 
- #appMountPoint .paymentPicker6 .card-type-text6,
- #appMountPoint .paymentPicker6 .logosContainer6,
- #appMountPoint .paymentPicker6 .selectionLabel6 {
-     line-height: 20px;
-     min-height: 20px;
- }
+  .site-footer-wrapper2 {
+      background-color: #f3f3f3;
+      margin-top: 0;
+      opacity: 1;
+  }
 
- .paymentPicker6 .card-type-text6 {
-     float: left;
-     margin: 0 15px;
-     max-width: 60%;
- }
 
- #appMountPoint .paymentPicker6 .selectionLabel6 {
-     display: block;
+  .site-footer-wrapper2 {
+      color: #737373;
+      font-size: 1em;
 
- }
+      min-width: 190px;
+      padding-bottom: 20px;
+      position: relative;
+      width: 100%;
+  }
 
- .paymentPicker6 .selectionLabel6 {
-     display: inline-block;
-     line-height: normal;
-     vertical-align: middle;
-     color: black;
+  .footer-divider2 {
+      border-top: 1px solid #e6e6e6;
+      height: 0;
+      width: 100%;
+  }
 
- }
+  .site-footer2 {
+      margin: 0 auto;
+      padding-top: 30px;
+      width: 90%;
+  }
 
- .nfSelectWrapper2 .selectArrow2.prefix2 .nfSelectPlacement2.globe2:before,
- .nfSelectWrapper2.selectArrow2.prefix2 .nfSelectPlacement2.globe2:before {
-     content: "\e896";
- }
+  .footer-top2 {
+      margin: 0 0 30px;
+      padding: 0;
+  }
 
- .nfSelectWrapper2 .selectArrow.prefix2 .nfSelectPlacement2:before,
- .nfSelectWrapper2 .selectArrow.prefix2 .nfSelectPlacement2:before {
-     color: #333;
-     font-family: nf-icon;
-     font-size: 16px;
-     left: 15px;
-     pointer-events: none;
-     position: absolute;
-     top: 50%;
-     transform: translateY(-50%);
- }
 
- #appMountPoint .paymentPicker6 .mopNameAndLogos6 {
-     align-items: center;
-     display: flex;
-     flex-wrap: wrap;
-     height: auto;
-     justify-content: flex-start;
-     padding: 15px 0;
- } */
+  .footer-top-a {
+      color: #737373;
+      text-decoration: none;
+  }
+
+  .footer-top-a:hover {
+      text-decoration: underline;
+  }
+
+  .footer-links2 {
+      box-sizing: border-box;
+      font-size: 13px;
+      max-width: 1000px;
+  }
+
+  .footer-link-item2 {
+      box-sizing: border-box;
+      display: inline-block;
+      margin-bottom: 16px;
+      min-width: 100px;
+      padding: 0 12px 0 0;
+      vertical-align: top;
+      width: 25%;
+  }
+
+  ul.structural {
+      margin: 0;
+      padding: 0;
+  }
+
+  ul.structural>li {
+      list-style: none;
+      margin-left: 0;
+  }
+
+  .footer-link2 {
+      color: #737373;
+      text-decoration: none;
+  }
+
+  .footer-link2:hover {
+      text-decoration: underline;
+  }
+
+  .lang-selection-container2 {
+      display: inline-block;
+  }
+
+  .nfSelectWrapper2.selectArrow2 {
+      display: inline-block;
+      width: 100%;
+  }
+
+  .nfSelectWrapper2 {
+      display: inline-block;
+      max-width: 500px;
+      position: relative;
+  }
+
+  .lang-selection-container2 .nfLabel2 {
+      clip: rect(0 0 0 0);
+      border: 0;
+      display: block;
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+  }
+
+  .nfLabel2 {
+      color: #333;
+      font-size: 16px;
+  }
+
+  .nfSelectWrapper2 .selectArrow2.nfSelectPlacement2,
+  .nfSelectWrapper2.selectArrow2.nfSelectPlacement2 {
+      position: relative;
+  }
+
+  .nfSelectWrapper2 .selectArrow2.inFooter2 .nfSelect2,
+  .nfSelectWrapper2.selectArrow2.inFooter2 .nfSelect2 {
+      color: inherit;
+  }
+
+  .nfSelectWrapper2 .selectArrow2.prefix2 .nfSelect2,
+  .nfSelectWrapper2.selectArrow2.prefix2 .nfSelect2 {
+      padding-left: 42px;
+  }
+
+  .nfSelect2 {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: #fff;
+      border: 1px solid #a6a6a6;
+      border-radius: 2px;
+      font-size: 16px;
+      height: 48px;
+      padding: 10px 30px 12px 10px;
+      width: 100%;
+  }
+
+  #tmcontainer1,
+  .a11yAnnouncer2 {
+      position: absolute;
+  }
+
+  .a11yAnnouncer2 {
+      height: 1px;
+      overflow: hidden;
+      width: 1px;
+  }
+
+  .nfSelectWrapper2 .selectArrow2.prefix2 .nfSelectPlacement2.globe2:before,
+  .nfSelectWrapper2.selectArrow2.prefix2 .nfSelectPlacement2.globe2:before {
+      content: "\e896";
+  }
+
+  .nfSelectWrapper2 .selectArrow2.prefix2 .nfSelectPlacement2:before,
+  .nfSelectWrapper2.selectArrow2.prefix2 .nfSelectPlacement2:before {
+      color: #333;
+      font-family: nf-icon;
+      font-size: 16px;
+      left: 15px;
+      pointer-events: none;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .nfSelectWrapper2 .selectArrow2 .nfSelectPlacement2:after,
+  .nfSelectWrapper2.selectArrow2 .nfSelectPlacement2:after {
+      background-color: #fff;
+      border: 6px solid #fff;
+      border-top-color: #333;
+      content: "";
+      pointer-events: none;
+      position: absolute;
+      right: 10px;
+      top: 41%;
+  }
