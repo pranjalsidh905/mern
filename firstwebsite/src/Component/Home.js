@@ -1,6 +1,8 @@
-const Home = () => {
+import { useNavigate } from "react-router-dom";
 
-  
+const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
       <div class="outter-container">
@@ -29,9 +31,12 @@ const Home = () => {
 
               <div class="get-started">
                 <input type="text" name="" id="" placeholder="Email address" />
-                <a href="" class="btn-lg">
-                  Get started <i class="fas fa-chevron-right"></i>
-                </a>
+
+                <button onClick={() => navigate("/")}>
+                  <a href="" class="btn-lg">
+                    Get started <i class="fas fa-chevron-right"></i>
+                  </a>
+                </button>
               </div>
             </div>
           </div>

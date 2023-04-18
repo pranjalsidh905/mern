@@ -2,6 +2,7 @@ import carousel from "../images/carousel-1.jpg";
 import carousel2 from "../images/carousel-2.jpg";
 import carousel3 from "../images/carousel-3.jpg";
 function Home() {
+   
   return (
     
     <div class="container-fluid">

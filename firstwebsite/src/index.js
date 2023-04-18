@@ -9,11 +9,13 @@ import Step2 from "./Component/Step2";
 import Step3 from "./Component/Step3";
 import Step4 from "./Component/Step4";
 import Step5 from "./Component/Step5";
+import Step6 from "./Component/Step6";
+import Home from "./Component/Home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Step5 />
+    <Home />
   </React.StrictMode>
 );
 

@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router";
+
 const Header = () => {
+  
+
   return (
     <div class="container-fluid">
       <div class="row py-3">
@@ -68,7 +72,7 @@ const Header = () => {
                 </li>
                 <li class="nav-item">
                   <a href="/Admin" class="nav-link">
-                 Admin
+                    Admin
                   </a>
                 </li>
                 <li class="nav-item">
