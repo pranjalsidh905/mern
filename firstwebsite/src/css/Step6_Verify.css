@@ -1,0 +1,281 @@
+.basicLayout8.simplicity8{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 0;
+}
+
+div.basicLayout8 .nfHeader6 {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+div.basicLayout8 .nfHeader6,
+div.basicLayout8 .simpleContainer8 {
+    background-color: #fff;
+}
+
+.nfHeader6,
+.nfHeader6.signupBasicHeader7 {
+    height: 90px;
+}
+
+.noBorderHeader6{
+    background-color: transparent;
+    border-bottom: 0;
+    position: relative;
+}
+
+.authLinks7.signupBasicHeader7 {
+    margin: 0 3%;
+}
+
+.authLinks7 {
+    color: #333;
+    float: right;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+#appMountPoint .simpleContainer8 {
+    padding-bottom: 95px;
+}
+
+.basicLayout8.simplicity8 .simpleContainer8 {
+    flex-grow: 1;
+}
+
+div.basicLayout8 .nfHeader6,
+div.basicLayout8 .simpleContainer8 {
+    background-color: #fff;
+}
+
+.simpleContainer8 {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    width: 100%;
+}
+
+div.basicLayout8 .centerContainer8  {
+    --layout-container-side-padding: 32px;
+    padding: 20px 32px 60px;
+    padding: 20px var(--layout-container-side-padding) 60px;
+}
+
+.centerContainer8  {
+    display: none;
+    overflow: hidden;
+}
+
+.centerContainer8  {
+    box-sizing: border-box;
+    margin: 0 auto 15px;
+    max-width: 978px;
+    padding: 20px 3% 60px;
+}
+
+div.basicLayout8 .planContainer,
+div.basicLayout8 .regContainer,
+div.basicLayout8 .verifyCardContainer8 {
+    max-width: 340px;
+}
+
+.planContainer,
+.regContainer,
+.verifyCardContainer8,
+.verifyCardPageContainer {
+    margin: 0 auto;
+    max-width: 440px;
+    text-align: center;
+}
+
+div.basicLayout8 .stepLogoContainer8 {
+    display: inline-block;
+}
+
+div.basicLayout8 .stepLogoContainer8 .paymentStepLogo8 {
+    margin-top: 20px;
+}
+
+div.basicLayout8 .stepLogoContainer8 .stepLogo8 {
+    margin: 100px 0 20px;
+}
+
+div.basicLayout8 .paymentStepLogo8,
+div.basicLayout8 .planStepLogo8 {
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.planContainer .stepLogo8,
+.regContainer .stepLogo8,
+.verifyCardContainer8 .stepLogo8,
+.verifyCardPageContainer .stepLogo8 {
+    display: block;
+    margin: 10% 0;
+}
+
+
+
+div.basicLayout8 .stepLogoContainer8 .paymentStepLogo8 {
+    margin-top: 20px;
+}
+
+div.basicLayout8 .stepLogoContainer8 .stepLogo8 {
+    margin: 100px 0 20px;
+}
+
+div.basicLayout8 .paymentStepLogo8,
+div.basicLayout8 .planStepLogo8 {
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.planContainer .stepLogo8,
+.regContainer .stepLogo8,
+.verifyCardContainer8 .stepLogo8,
+.verifyCardPageContainer .stepLogo8 {
+    display: block;
+    margin: 10% 0;
+}
+
+.paymentStepLogo8 {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Lock.png) no-repeat 50% 50%;
+    background-size: 60px;
+    height: 60px;
+}
+
+.stepHeader8 {
+    display: inline-block;
+}
+
+div.basicLayout8.hasLargeTypography8 h1 {
+    font-size: 32px;
+}
+
+.stepTitle8 {
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 500;
+    color: #333;
+}
+
+div.basicLayout8.hasLargeTypography8 .checkmark-group--text,
+div.basicLayout8.hasLargeTypography8 .contextRow8,
+div.basicLayout8.hasLargeTypography8 .regContainer .contextBody8,
+div.basicLayout8.hasLargeTypography8 .regFormContainer .contextRow8 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #333;
+}
+
+div.basicLayout8 .paymentContainer .contextBody8,
+div.basicLayout8 .planContainer .contextBody8,
+div.basicLayout8 .regContainer .contextBody8,
+div.basicLayout8 .verifyCardContainer8 .contextBody8 {
+    font-size: 17px;
+    margin: 0;
+}
+
+.planContainer .contextBody8,
+.regContainer .contextBody8,
+.verifyCardContainer8 .contextBody8,
+.verifyCardPageContainer .contextBody8 {
+    font-size: 19px;
+    margin: 30px 0;
+}
+
+.planContainer .contextRow8,
+.regContainer .contextRow8,
+.verifyCardContainer8 .contextRow8,
+.verifyCardPageContainer .contextRow8 {
+    display: inline-block;
+    max-width: 300px;
+}
+
+div.basicLayout8 .contextStep8 .submitBtnContainer8 {
+    max-width: 340px;
+}
+
+.simpleContainer8 .submitBtnContainer8 {
+    margin-top: 24px;
+}
+
+.submitBtnContainer8 {
+    margin: 0 auto;
+    max-width: 440px;
+    text-align: center;
+}
+
+div.basicLayout8.hasLargeTypography8 button.modal-action-button,
+div.basicLayout8.hasLargeTypography8 button.nf-btn-primary {
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 400;
+    min-height: 64px;
+}
+
+div.basicLayout8 .nf-btn-primary,
+div.basicLayout8 .nf-btn-secondary {
+    border-radius: 2px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+    min-height: 48px;
+}
+
+.nf-btn.nf-btn-oversize {
+    font-size: 19px;
+    line-height: 19px;
+    min-height: 60px;
+    min-width: 110px;
+    padding: 20.5px 2em;
+    width: 100%;
+}
+
+.nf-btn-solid.nf-btn-primary,
+.nf-btn-twotone.nf-btn-primary {
+    background-color: #e50914;
+    color: #fff;
+}
+
+@media only screen and (min-width: 500px) {
+    .nf-btn {
+        width: auto;
+    }
+
+}
+
+.nf-btn {
+    font-size: 1rem;
+    min-height: 48px;
+    min-width: 74px;
+    padding: 23.5px 2em;
+    position: relative;
+    width: 100%;
+}
+
+.nf-btn {
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    text-align: center;
+    text-decoration: none;
+
+    user-select: none;
+    vertical-align: middle;
+}
+
+.submitBtnContainer8 span {
+    vertical-align: middle;
+}

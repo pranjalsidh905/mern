@@ -8,16 +8,18 @@ import Step3 from "./Component/Step3";
 import Step4 from "./Component/Step4";
 import Step5 from "./Component/Step5";
 import Step6 from "./Component/Step6";
+import Step6_Verify from "./Component/Step6_Verify";
 const PublicRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Step1" component={<Step1 />} />
-      <Route path="/step2" component={<Step2 />} />
-      <Route path="/step3" component={<Step3 />} />
-      <Route path="/step4" component={<Step4 />} />
-      <Route path="/step5" component={<Step5 />} />
-      <Route path="/step6" component={<Step6 />} />
+      <Route path="/step1" element={<Step1 />} />
+      <Route path="/step2" element={<Step2 />} />
+      <Route path="/step3" element={<Step3 />} />
+      <Route path="/step4" element={<Step4 />} />
+      <Route path="/step5" element={<Step5 />} />
+      <Route path="/step6" element={<Step6 />} />
+      <Route path="/step6_Verify" element={<Step6_Verify />} />
       <Route path="/header" element={<Header />} />
       <Route path="/sign" element={<Sign />} />
     </Routes>

@@ -275,7 +275,7 @@ ul.structural7>li {
     color: rgb(0, 0, 0);
     display: block;
     font-size: 16px;
-    height: 44px;
+    height: 59px;
     padding: 10px 11px;
     width: 100%;
 }
@@ -431,9 +431,11 @@ a {
 .ui-binary-input7 input[type="checkbox"],
 .ui-binary-input7 input[type="radio"] {
     left: 0px;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     top: 0px;
+    width: 44px;
+    height: 23px;
 }
 
 .nfInput7 .tooltipWrapper7 {

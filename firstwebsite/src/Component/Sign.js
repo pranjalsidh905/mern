@@ -1,4 +1,5 @@
 // import { useState } from "react";
+// import "../css/Sign.css";
 // function Sign(props) {
 //   console.log(">>>>>>props ", props);
 //   let [email, setEmail] = useState("");
@@ -22,7 +23,7 @@
 //     <div>
 //       <header class="showcase">
 //         <div class="logo1">
-//           <img src="https://i.ibb.co/r5krrdz/logo.png" />
+//           <img src="https://i.ibb.co/r5krrdz/logo.png" class="logoimg" />
 //         </div>
 
 //         <div class="showcase-content">
@@ -45,7 +46,7 @@
 //                 />
 //               </div>
 //               <div class="btn1">
-//                 <button class="btn-primary-1" type="submit">
+//                 <button class="btn-primary" type="submit">
 //                   Sign In
 //                 </button>
 //               </div>

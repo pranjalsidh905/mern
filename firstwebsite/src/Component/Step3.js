@@ -1,7 +1,10 @@
 import React from "react";
 import "../css/Step3.css";
 import Logo from "./Images/net.png";
+import { useNavigate } from "react-router";
 function Step3() {
+  const Navigate = useNavigate();
+
   return (
     <div id="appMountPoint1">
       <div class="Header1">
@@ -141,6 +144,7 @@ function Step3() {
                   </div>
                   <div class="submitBtnContainer2">
                     <button
+                      onClick={() => Navigate("/step4")}
                       type="button"
                       autocomplete="off"
                       tabindex="0"

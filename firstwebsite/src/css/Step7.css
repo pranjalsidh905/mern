@@ -1,0 +1,860 @@
+/* .basicLayout.simplicity {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 0;
+}
+
+div.basicLayout .nfHeader {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+div.basicLayout .nfHeader,
+div.basicLayout .simpleContainer {
+    background-color: #fff;
+}
+
+.nfHeader,
+.nfHeader.signupBasicHeader {
+    height: 90px;
+}
+
+.noBorderHeader {
+    background-color: transparent;
+    border-bottom: 0;
+    position: relative;
+}
+
+.authLinks.signupBasicHeader {
+    margin: 0 3%;
+}
+
+.authLinks {
+    color: #333;
+    float: right;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+#appMountPoint .simpleContainer {
+    padding-bottom: 95px;
+}
+
+.basicLayout.simplicity .simpleContainer {
+    flex-grow: 1;
+}
+
+div.basicLayout .nfHeader,
+div.basicLayout .simpleContainer {
+    background-color: #fff;
+}
+
+.simpleContainer {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    width: 100%;
+}
+
+div.basicLayout .centerContainer {
+    --layout-container-side-padding: 32px;
+    padding: 20px 32px 60px;
+    padding: 20px var(--layout-container-side-padding) 60px;
+}
+
+.centerContainer.overflowVisible {
+    overflow: visible;
+}
+
+.centerContainer {
+    display: none;
+    overflow: hidden;
+}
+
+.centerContainer {
+    box-sizing: border-box;
+    margin: 0 auto 15px;
+    max-width: 978px;
+    padding: 20px 3% 60px;
+}
+
+.paymentFormContainer {
+    margin: 0 auto;
+    max-width: 440px;
+    text-align: left;
+}
+
+.paymentContainer .actionLink,
+.paymentContainer .stepHeader,
+.paymentFormContainer .stepHeader {
+    margin-top: 20px;
+}
+
+.stepHeader {
+    display: inline-block;
+}
+
+div.basicLayout .stepIndicator {
+    font-size: 13px;
+    text-align: inherit;
+}
+
+.stepIndicator {
+    display: block;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+}
+
+div.basicLayout.hasLargeTypography h1 {
+    font-size: 32px;
+}
+
+.stepTitle {
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.paymentFormContainer .fieldContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.paymentFormContainer .payment-select {
+    border: 1px solid #8c8c8c;
+    box-sizing: border-box;
+}
+
+.ui-select-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+@media only screen and (min-width: 740px) {
+    .ui-select-wrapper {
+        max-width: 600px;
+    }
+}
+
+.ui-select-wrapper {
+    border: 1px solid #b3b3b3;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.ui-select-wrapper-link {
+    box-sizing: inherit;
+    height: 100%;
+}
+
+.ui-select-wrapper-link {
+    color: #333;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.paymentFormContainer .payment-select .ui-select-current {
+    align-items: center;
+    box-sizing: inherit;
+    display: flex;
+    height: 60px;
+}
+
+.ui-select-current {
+    background: #fff;
+    height: 100%;
+    margin: 0;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+    width: 100%;
+}
+
+.paymentFormContainer .payment-select .ui-select-options {
+    top: unset;
+}
+
+.ui-select-options {
+    background: #fff;
+    border: 1px solid #ccc;
+    left: -1px;
+    margin: -1px 0 0;
+    max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    z-index: 2;
+}
+
+.ui-select-options-hidden {
+    display: none;
+}
+
+.ui-select-item {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.ui-select-item-link {
+    align-items: center;
+    color: #333;
+    display: flex;
+    text-decoration: none;
+}
+
+.paymentFormContainer .logos-block {
+    display: inline-block;
+}
+
+.logos {
+    position: relative;
+}
+
+#appMountPoint img.logoIcon {
+    background-image: none;
+    width: auto;
+}
+
+.logos .logoIcon {
+    float: left;
+    height: 25px;
+    margin: 1px 6px 1px 0;
+    width: 39px;
+}
+
+.paymentFormContainer .payment-select:after {
+    top: calc(50% - 4px);
+}
+
+.ui-select-wrapper.ui-select-wrapper-open:after {
+    transform: rotate(180deg);
+}
+
+.ui-select-wrapper:after {
+    color: #000;
+    content: "\e898";
+    font-family: nf-icon;
+    font-size: 6px;
+    pointer-events: none;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+}
+
+.paymentFormContainer .simpleForm {
+    margin-top: 10px;
+    text-align: left;
+}
+
+ul.structural {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-grid {
+    box-sizing: border-box;
+}
+
+ul.structural>li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.nfFormSpace {
+    margin-bottom: 10px;
+}
+
+.default-ltr-cache-bjn8wh {
+    position: relative;
+}
+
+.nfInput {
+    max-width: 500px;
+}
+
+.nfInput,
+.nfInput .nfInputPlacement {
+    position: relative;
+}
+
+.nfInput.nfInputOversize .nfTextField {
+    height: 60px;
+}
+
+.nfInput .nfTextField {
+    height: 48px;
+    padding: 10px 10px 0;
+    width: 100%;
+}
+
+.nfTextField:disabled {
+    border-color: #ccc;
+    color: #a6a6a6;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+.nfTextField {
+
+    appearance: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    height: 44px;
+    padding: 10px 11px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 740px) {
+    .nfInput .placeLabel {
+        font-size: 16px;
+    }
+}
+
+.nfInput .placeLabel {
+    color: #8c8c8c;
+    font-size: 14px;
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: font .1s ease, top .1s ease, transform .1s ease;
+}
+
+.simpleContainer .submitBtnContainer {
+    margin-top: 24px;
+}
+
+.submitBtnContainer {
+    margin: 0 auto;
+    max-width: 440px;
+    text-align: center;
+}
+
+div.basicLayout.hasLargeTypography button.modal-action-button,
+div.basicLayout.hasLargeTypography button.nf-btn-primary {
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 400;
+    min-height: 64px;
+}
+
+div.basicLayout .nf-btn-primary,
+div.basicLayout .nf-btn-secondary {
+    border-radius: 2px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+    min-height: 48px;
+}
+
+.nf-btn.nf-btn-oversize {
+    font-size: 19px;
+    line-height: 19px;
+    min-height: 60px;
+    min-width: 110px;
+    padding: 20.5px 2em;
+    width: 100%;
+}
+
+.nf-btn-solid.nf-btn-primary,
+.nf-btn-twotone.nf-btn-primary {
+    background-color: #e50914;
+    color: #fff;
+}
+
+@media only screen and (min-width: 500px) .nf-btn {
+    width: auto;
+}
+
+.nf-btn {
+    font-size: 1rem;
+    min-height: 48px;
+    min-width: 74px;
+    padding: 23.5px 2em;
+    position: relative;
+    width: 100%;
+}
+
+.nf-btn {
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    text-align: center;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+} */
+.basicLayout.simplicity {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 0;
+}
+
+div.basicLayout .nfHeader {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+div.basicLayout .nfHeader,
+div.basicLayout .simpleContainer {
+    background-color: #fff;
+}
+
+.nfHeader,
+.nfHeader.signupBasicHeader {
+    height: 90px;
+}
+
+.noBorderHeader {
+    background-color: transparent;
+    border-bottom: 0;
+    position: relative;
+}
+
+.authLinks.signupBasicHeader {
+    margin: 0 3%;
+}
+
+.authLinks {
+    color: #333;
+    float: right;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+#appMountPoint .simpleContainer {
+    padding-bottom: 95px;
+}
+
+.basicLayout.simplicity .simpleContainer {
+    flex-grow: 1;
+}
+
+div.basicLayout .nfHeader,
+div.basicLayout .simpleContainer {
+    background-color: #fff;
+}
+
+.simpleContainer {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    width: 100%;
+}
+
+div.basicLayout .centerContainer {
+    --layout-container-side-padding: 32px;
+    padding: 20px 32px 60px;
+    padding: 20px var(--layout-container-side-padding) 60px;
+}
+
+.centerContainer.overflowVisible {
+    overflow: visible;
+}
+
+.centerContainer {
+    display: none;
+    overflow: hidden;
+}
+
+.paymentFormContainer {
+    margin: 0 auto;
+    max-width: 440px;
+    text-align: left;
+}
+
+.paymentContainer .actionLink,
+.paymentContainer .stepHeader,
+.paymentFormContainer .stepHeader {
+    margin-top: 20px;
+}
+
+.stepHeader {
+    display: inline-block;
+}
+
+div.basicLayout .stepIndicator {
+    font-size: 13px;
+    text-align: inherit;
+}
+
+.stepIndicator {
+    display: block;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+    color: #333;
+}
+
+div.basicLayout.hasLargeTypography h1 {
+    font-size: 32px;
+}
+
+.stepTitle {
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 500;
+    color: #333;
+}
+
+@media screen and (min-width: 740px) {
+    h1 {
+        font-size: 38px;
+    }
+}
+
+.paymentFormContainer .fieldContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.paymentFormContainer .payment-select {
+    border: 1px solid #8c8c8c;
+    box-sizing: border-box;
+}
+
+.ui-select-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.ui-select-wrapper {
+    border: 1px solid #b3b3b3;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.ui-select-wrapper-link {
+    box-sizing: inherit;
+    height: 100%;
+}
+
+.ui-select-wrapper-link {
+    color: #333;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 740px) {
+    .ui-select-wrapper {
+        max-width: 600px;
+    }
+}
+
+.paymentFormContainer .payment-select .ui-select-current {
+    align-items: center;
+    box-sizing: inherit;
+    display: flex;
+    height: 60px;
+}
+
+.ui-select-current {
+    background: #fff;
+    height: 100%;
+    margin: 0;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+    width: 100%;
+}
+
+.ui-select-current:after {
+    content: "";
+    visibility: hidden;
+}
+
+.paymentFormContainer .payment-select .ui-select-options {
+    top: unset;
+}
+
+.ui-select-options {
+    background: #fff;
+    border: 1px solid #ccc;
+    left: -1px;
+    margin: -1px 0 0;
+    max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    z-index: 2;
+}
+
+.ui-select-item {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.ui-select-item-link {
+    align-items: center;
+    color: #333;
+    display: flex;
+    text-decoration: none;
+}
+
+.paymentFormContainer .logos-block {
+    display: inline-block;
+}
+
+.logos {
+    position: relative;
+}
+
+#appMountPoint img.logoIcon {
+    background-image: none;
+    width: auto;
+}
+
+.logos .logoIcon {
+    float: left;
+    height: 25px;
+    margin: 1px 6px 1px 0;
+    width: 39px;
+}
+
+.default-ltr-cache-kg1rox {
+    max-width: 39px;
+    max-height: 25px;
+}
+
+img {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+
+.ui-select-item {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.paymentFormContainer .simpleForm {
+    margin-top: 10px;
+    text-align: left;
+}
+
+ul.structural {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-grid {
+    box-sizing: border-box;
+}
+
+ul.structural>li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.nfFormSpace {
+    margin-bottom: 10px;
+}
+
+.default-ltr-cache-bjn8wh {
+    position: relative;
+}
+
+.nfInput,
+.nfInput .nfInputPlacement {
+    position: relative;
+}
+
+.nfInput {
+    max-width: 500px;
+}
+
+.nfInput,
+.nfInput .nfInputPlacement {
+    position: relative;
+}
+
+.nfInput.nfInputOversize .nfTextField {
+    height: 60px;
+}
+
+.nfInput .nfTextField {
+    height: 48px;
+    padding: 10px 10px 0;
+    width: 100%;
+}
+
+.nfTextField:disabled {
+    border-color: #ccc;
+    color: #a6a6a6;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+.ui-select-item-link {
+    align-items: center;
+    color: #333;
+    display: flex;
+    text-decoration: none;
+}
+
+.paymentFormContainer .logos-block {
+    display: inline-block;
+}
+
+.logos {
+    position: relative;
+}
+
+.nfTextField {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    height: 44px;
+    padding: 10px 11px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 740px) .nfInput .placeLabel {
+    font-size: 16px;
+}
+
+.nfInput .placeLabel {
+    color: #8c8c8c;
+    font-size: 14px;
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: font .1s ease, top .1s ease, transform .1s ease;
+}
+
+.simpleContainer .submitBtnContainer {
+    margin-top: 24px;
+}
+
+.submitBtnContainer {
+    margin: 0 auto;
+    max-width: 440px;
+    text-align: center;
+}
+
+div.basicLayout.hasLargeTypography button.modal-action-button,
+div.basicLayout.hasLargeTypography button.nf-btn-primary {
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 400;
+    min-height: 64px;
+}
+
+div.basicLayout .nf-btn-primary,
+div.basicLayout .nf-btn-secondary {
+    border-radius: 2px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+    min-height: 48px;
+}
+
+.nf-btn.nf-btn-oversize {
+    font-size: 19px;
+    line-height: 19px;
+    min-height: 60px;
+    min-width: 110px;
+    padding: 20.5px 2em;
+    width: 100%;
+}
+
+.nf-btn-solid.nf-btn-primary,
+.nf-btn-twotone.nf-btn-primary {
+    background-color: #e50914;
+    color: #fff;
+}
+
+@media only screen and (min-width: 500px) {
+    .nf-btn {
+        width: auto;
+    }
+}
+
+.nf-btn {
+    font-size: 1rem;
+    min-height: 48px;
+    min-width: 74px;
+    padding: 23.5px 2em;
+    position: relative;
+    width: 100%;
+}
+
+.nf-btn {
+    font-size: 1rem;
+    min-height: 48px;
+    min-width: 74px;
+    padding: 23.5px 2em;
+    position: relative;
+    width: 100%;
+}
+
+.nf-btn {
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    text-align: center;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+}

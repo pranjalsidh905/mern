@@ -1,8 +1,10 @@
 import React from "react";
 import Sharma from "./Images/net.png";
 import "../css/Step2.css";
+import { Navigate, useNavigate } from "react-router";
 
 const Step2 = () => {
+  let Navigate = useNavigate();
   return (
     <div id="appMountPoint1">
       <div>
@@ -48,7 +50,10 @@ const Step2 = () => {
                         <div class="contextRow1" data-uia="contextRow1Done">
                           Just a few more steps and you're done!
                         </div>
-                        <div class="contextRow1" data-uia="contextRow1PaperWork">
+                        <div
+                          class="contextRow1"
+                          data-uia="contextRow1PaperWork"
+                        >
                           We hate paperwork, too.
                         </div>
                         <ul class="simpleForm1 structural1 ui-grid1">
@@ -120,6 +125,7 @@ const Step2 = () => {
                     </div>
                     <div class="submitBtnContainer">
                       <button
+                        onClick={() => Navigate("/step3")}
                         type="submit"
                         autocomplete="off"
                         tabindex="0"

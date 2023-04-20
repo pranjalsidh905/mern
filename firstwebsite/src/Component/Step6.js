@@ -2,7 +2,9 @@ import React from "react";
 import "../css/Step6.css";
 import Logo from "./Images/net.png";
 import { FaTwitterSquare } from "react-icons/fa";
+import { useNavigate } from "react-router";
 const Step6 = () => {
+  let Navigate = useNavigate();
   return (
     <div>
       <div id="appMountPoint">
@@ -171,15 +173,13 @@ const Step6 = () => {
                                         tabindex="0"
                                         autocomplete="cc-exp"
                                         dir=""
-                                        placeholder=""
+                                        placeholder=" Expiration date"
                                         value=""
                                       />
                                       <label
                                         for="id_creditExpirationMonth"
                                         class="placeLabel"
-                                      >
-                                        Expiration date
-                                      </label>
+                                      ></label>
                                     </label>
                                   </div>
                                 </div>
@@ -427,11 +427,11 @@ const Step6 = () => {
                       </div>
                       <div class="submitBtnContainer7">
                         <button
+                          onClick={() => Navigate("/step6_verify")}
                           type="submit"
                           autocomplete="off"
                           tabindex="0"
                           class="nf-btn7 nf-btn-primary7 nf-btn-solid7 nf-btn-oversize7"
-                  
                           placeholder=""
                         >
                           Start Membership

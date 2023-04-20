@@ -1,8 +1,10 @@
 import React from "react";
 import Logo from "./Images/net.png";
 import "../css/Step4.css";
+import { useNavigate } from "react-router";
 
 function Step4() {
+  const Navigate = useNavigate();
   return (
     <div>
       <div id="appMountPoint">
@@ -774,6 +776,7 @@ function Step4() {
                     </div>
                     <div class="submitBtnContainer3">
                       <button
+                        onClick={() => Navigate("/step5")}
                         type="button"
                         autocomplete="off"
                         tabindex="0"
@@ -787,7 +790,6 @@ function Step4() {
                   </div>
                 </div>
 
-                
                 <div class="site-footer-wrapper2 centered">
                   <div class="footer-divider2"></div>
                   <div class="site-footer2">

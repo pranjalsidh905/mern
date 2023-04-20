@@ -8,8 +8,6 @@ import StopWatch from "./Components/StopWatch";
 import Admin from "./Components/Admin";
 import DashBord from "./Components/DashBord";
 
-
-
 const PublicRoutes = () => {
   return (
     <Routes>
@@ -19,7 +17,7 @@ const PublicRoutes = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/stop-watch" element={<StopWatch />} />
       <Route path="/Admin" element={<Admin />} />
-      <Route path="/dashbord" element={<DashBord />}/>
+      <Route path="/dashbord" element={<DashBord />} />
     </Routes>
   );
 };
